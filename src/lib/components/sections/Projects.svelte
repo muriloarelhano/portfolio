@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { projects } from '../../../data/projects';
+	import { projects, smallProjects } from '../../../data/projects';
 	import ProjectCard from '../ProjectCard.svelte';
 	import SectionHeader from '../SectionHeader.svelte';
 </script>
@@ -15,14 +15,15 @@
 		/>
 
 		<div class="grid grid-cols-3 gap-8 place-content-between">
-			{#each projects as project, i}
+			{#each [...projects, ...smallProjects] as project, i}
 				{#if i < 3}
 					<ProjectCard
 						name={project.name}
 						description={project.description}
 						image={project.image}
 						link={project.link}
-						imgWidthPx={project.imgWidthPx}
+						imageSize={project.imageSize}
+						cover={project.cover}
 						stack={project.stack}
 					/>
 				{/if}

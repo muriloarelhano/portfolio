@@ -2,13 +2,27 @@ import GoDevRel from '$lib/assets/desenvolvedor-de-software.png';
 import Portfolio from '$lib/assets/portfolio.png';
 import Callix from '$lib/assets/logo-calix.png';
 
-export const projects = [
+interface ProjectImageProps {
+	stack: string[];
+	name: string;
+	description: string;
+	link: string;
+	image: any;
+	cover?: boolean;
+	imageSize?: {
+		width?: string;
+	};
+}
+
+export const projects: ProjectImageProps[] = [
 	{
 		name: 'Callix',
 		description: 'Callix is an SaaS platform, multi-channel, contact center system',
 		image: Callix,
 		link: 'https://www.callix.com.br/',
-		imgWidthPx: 200,
+		imageSize: {
+			width: '200'
+		},
 		stack: ['Nodejs', 'React', 'Express', 'PostgreSQL']
 	},
 	{
@@ -19,12 +33,15 @@ export const projects = [
 		stack: ['Nodejs', 'React', 'NestJs', 'PostgreSQL', 'Redis', 'Netlify']
 	}
 ];
-export const smallProjects = [
+export const smallProjects: ProjectImageProps[] = [
 	{
 		name: 'Portfolio',
 		description: 'My personal portfolio',
 		image: Portfolio,
 		link: 'https://muriloarelhano.com.br',
+		imageSize: {
+			width: '95%'
+		},
 		stack: ['Svelte', 'SvelteKit', 'Tailwind', 'DaisyUI', 'Cloudflare Pages']
 	}
 ];

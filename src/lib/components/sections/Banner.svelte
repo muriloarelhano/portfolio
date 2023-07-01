@@ -27,8 +27,10 @@
 			</div>
 		</div>
 		<div id="banner-container" class="relative flex flex-col place-content-center">
-			<img alt="Banner with my photograph" src={banner} />
-			<div class="flex flex-row gap-2 border border-white p-2">
+			<div class="bg-cover" style="background-image: url('/banner-shape.png'); ">
+				<img alt="Banner with my photograph" src={banner} class="m-auto" width="400" />
+			</div>
+			<div class="flex flex-row gap-2 border border-white p-2 w-[450px]">
 				<div class="w-3 h-3 bg-purple-500" />
 				<p>Currently working on <strong>Callix</strong></p>
 			</div>

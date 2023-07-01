@@ -1,9 +1,9 @@
 <script>
-	import SkillsCard from '../SkillsCard.svelte';
 	import dots from '$lib/assets/dots.svg';
 	import logo from '$lib/assets/logo-outline.svg';
 	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import { skills } from '../../../data';
+	import SkillsCard from '../SkillsCard.svelte';
 </script>
 
 <section id="skills" class="mt-28">
@@ -24,13 +24,9 @@
 				<img class="absolute bottom-10 left-16" width="100px" src={logo} alt="dots" />
 			</div>
 			<div class="grid grid-cols-3 gap-8 basis-3/6">
-				<SkillsCard title={'Languages'} contents={skills.languages} />
-				<SkillsCard title={'Frameworks'} contents={skills.frameworks} />
-				<SkillsCard title={'Databases'} contents={skills.databases} />
-				<SkillsCard title={'Tools'} contents={skills.tools} />
-				{#if skills.other}
-					<SkillsCard title={'Other'} contents={skills.other} />
-				{/if}
+				{#each Object.entries(skills) as [key, value]}
+					<SkillsCard title={key.charAt(0).toUpperCase() + key.slice(1)} contents={value} />
+				{/each}
 			</div>
 		</div>
 	</div>
