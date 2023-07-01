@@ -12,7 +12,7 @@
 
 <main>
 	<div class="container">
-		<div class="print:w-[1920px]">
+		<div class="page">
 			<div class="flex place-content-between items-center">
 				<div class="flex gap-4">
 					<img src={resumePic} alt="" width="125" class="rounded-md" />
@@ -49,12 +49,6 @@
 			<hr class="my-4" />
 
 			<h1 class="text-3xl font-bold mb-4">Experiência Profissional</h1>
-			<p class="text-sm">Janeiro 2020 - Setembro 2021</p>
-			<p class="text-xl font-bold mb-4">Freelancer Web Developer</p>
-			<ul class="list-disc list-inside ml-4 mb-4">
-				<li>Criação de websites estáticos para lojas e divulgação com HTML, CSS e Js puros.</li>
-				<li>Modificações visuais em aplicações existentes.</li>
-			</ul>
 
 			<p class="text-sm">Setembro 2021 - Outubro 2022</p>
 			<p class="text-xl font-bold mb-4">Desenvolvedor full-stack, Climatempo</p>
@@ -87,7 +81,14 @@
 
 <style>
 	@page {
-		margin-top: 1cm;
-		margin-bottom: 0;
+		size: A4;
+		margin: 0;
+	}
+
+	@media print {
+		.page {
+			width: 240mm;
+			margin: 10mm;
+		}
 	}
 </style>
