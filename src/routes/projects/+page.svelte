@@ -1,6 +1,8 @@
 <script>
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import SectionHeader from '$lib/components/SectionHeader.svelte';
 	import Footer from '$lib/components/sections/Footer.svelte';
+
 	import Header from '$lib/components/sections/Header.svelte';
 	import { projects, smallProjects } from '../../data';
 </script>
@@ -10,7 +12,7 @@
 <main>
 	<div class="container">
 		<h1 class="text-4xl mb-8"><span class="text-purple-500">/</span>projects</h1>
-		<h1 class="text-2xl font-bold mb-8">Large Projects</h1>
+		<SectionHeader title={'Large Projects'} size={2} />
 		<div class="grid grid-cols-3 gap-8 place-content-between mb-16">
 			{#each projects as project, i}
 				<ProjectCard
@@ -24,7 +26,7 @@
 				/>
 			{/each}
 		</div>
-		<h1 class="text-2xl font-bold mb-8">Small Projects</h1>
+		<SectionHeader title={'Small Projects'} size={2} />
 		<div class="grid grid-cols-3 gap-8 place-content-between">
 			{#each smallProjects as project, i}
 				<ProjectCard
