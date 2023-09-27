@@ -32,7 +32,7 @@
 			</div>
 			<div class="flex flex-row gap-2 border border-white p-2 w-[450px]">
 				<div class="w-3 h-3 bg-purple-500" />
-				<p>Currently working on <strong>Callix</strong></p>
+				<p>Currently working on <strong>Gringo</strong> (Brazil)</p>
 			</div>
 		</div>
 	</div>

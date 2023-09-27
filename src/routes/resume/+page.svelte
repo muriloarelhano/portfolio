@@ -10,7 +10,7 @@
 <Header />
 
 <main>
-	<div class="container">
+	<div class="container text-white">
 		<div class="page">
 			<div id="resume-title" class="flex place-content-between items-center mb-8">
 				<div class="flex gap-4">
@@ -43,31 +43,32 @@
 					<p class="text-xl font-bold mb-4">Desenvolvedor full-stack, Climatempo</p>
 					<ul class="list-disc list-inside ml-4">
 						<li>
-							Desenvolvimento completo web services e micros serviços em NodeJs com ExpressJs, no
-							padrão REST API, gRPC e GraphQL.
+							Desenvolvimento serviços e micros serviços em NodeJs no padrão REST, gRPC e GraphQL.
 						</li>
-						<li>
-							Desenvolvimento seguindo padrões arquiteturais como Hexagonal Architecture e SOLID.
-						</li>
+						<li>Aplicações com uso de filas de mensageira, com RabbitMQ.</li>
+						<li>Desenvolvimento de teste de unitários e de integração.</li>
+						<li>Bancos de dados SQL e NoSQL (Diversos).</li>
 						<li>Criação de pipelines CI/CD e deploy de aplicações em ambiente Kubernetes.</li>
-						<li>Criação e modelagem de bancos de dados SQL e NoSQL e integrações.</li>
 						<li>
-							Implantação de ferramentas de monitoramento e observabilidade das aplicações, com
-							Grafana, Prometheus, Graylog e Istio.
+							Implantação de ferramentas de monitoramento e observabilidade, com Grafana,
+							Prometheus, Graylog e Istio.
 						</li>
-						<li>Criação de aplicações com uso de filas de mensageira, como RabbitMQ.</li>
-						<li>Desenvolvimento de teste de unitários e de integração nas aplicações.</li>
+						<li>Hexagonal Architecture.</li>
 					</ul>
 
-					<p class="text-sm mt-4">Setembro 2021 - Atualmente</p>
+					<p class="text-sm mt-4">Setembro 2022 - Outubro 2023</p>
 					<p class="text-xl font-bold mb-4">Desenvolvedor full-stack, Callix</p>
 					<ul class="list-disc list-inside ml-4">
 						<li>Desenvolvimento de aplicações full-stack em NodeJs/ReactJs com Typescript.</li>
 					</ul>
 
+					<p class="text-sm mt-4">Outubro 2023 - Atualmente</p>
+					<p class="text-xl font-bold mb-4">Engenheiro de Software II, Gringo</p>
+
 					<hr class="my-4" />
 
 					<h1 class="text-3xl font-bold mb-4">Formação Acadêmica</h1>
+
 					<p class="text-sm">Janeiro 2019 - Julho 2023</p>
 					<p class="text-xl font-bold">Bacharelado, Sistemas de Informação</p>
 					<p>Universidade Federal de Mato Grosso do Sul</p>
@@ -96,12 +97,13 @@
 							<li>React</li>
 							<li>Svelte</li>
 							<li>.NET</li>
-							<li>Docker / Kubernetes</li>
+							<li>Docker</li>
+							<li>Kubernetes</li>
 							<li>Testes unitários</li>
 						</ul>
 					</div>
 					<!-- <div>
-						<h1 class="text-2xl font-bold mb-4">Outras Competecias</h1>
+						<h1 class="text-2xl font-bold mb-4">Outras Competências</h1>
 					</div> -->
 					<div class="flex flex-col place-items-start gap-2">
 						<h1 class="text-2xl font-bold">Social</h1>
@@ -131,7 +133,7 @@
 	@media print {
 		.page {
 			width: 240mm;
-			padding: 10mm;
+			padding: 10mm 20mm 0 0;
 			color: black;
 		}
 	}
