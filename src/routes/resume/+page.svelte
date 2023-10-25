@@ -31,7 +31,7 @@
 					<h1 class="text-3xl font-bold text-justify mb-4">Profile</h1>
 					<p>
 						Sou bacharel em Sistemas de Informação, tenho experiência principalmente com plataforma
-						NodeJs com Typescript, além de algumas outras linguagens, como Go e .Net/C#. Trabalho
+						NodeJs com Typescript, além de algumas outras linguagens, como Go e .NET/C#. Trabalho
 						com desenvolvimento de microsserviços e aplicações web no geral, também estudo bastante
 						sobre outras áreas como segurança da informação, DevOps e desenvolvimento de games.
 					</p>
@@ -65,6 +65,15 @@
 					<p class="text-sm mt-4">Outubro 2023 - Atualmente</p>
 					<p class="text-xl font-bold mb-4">Engenheiro de Software II, Gringo</p>
 
+					<ul class="list-disc list-inside ml-4">
+						<li>
+							Desenvolvimento de apps mobile em React Native.
+						</li>
+						<li>
+							Desenvolvimento micros serviços em NodeJs em Typescript.
+						</li>
+					</ul>
+
 					<hr class="my-4" />
 
 					<h1 class="text-3xl font-bold mb-4">Formação Acadêmica</h1>
@@ -91,7 +100,7 @@
 					</div>
 					<div>
 						<h1 class="text-2xl font-bold mb-4">Competências</h1>
-						<ul class="list-disc list-inside ml-4">
+						<ul class="list-disc list-inside">
 							<li>Typescript</li>
 							<li>Nodejs</li>
 							<li>React</li>
@@ -135,6 +144,7 @@
 			width: 240mm;
 			padding: 10mm 20mm 0 0;
 			color: black;
+			font-family: Arial, Helvetica, sans-serif;
 		}
 	}
 </style>
