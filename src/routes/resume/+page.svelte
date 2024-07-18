@@ -81,6 +81,10 @@
 					<p class="text-sm">Janeiro 2019 - Julho 2023</p>
 					<p class="text-xl font-bold">Bacharelado, Sistemas de Informação</p>
 					<p>Universidade Federal de Mato Grosso do Sul</p>
+
+					<p class="text-sm mt-4">Janeiro 2024 - Cursando</p>
+					<p class="text-xl font-bold">Especialização em Arquitetura de Soluções</p>
+					<p>PUC Minas</p>
 				</div>
 				<div id="resume-side-info" class="flex flex-col place-items-start gap-4">
 					<h1 class="text-2xl font-bold">Contact</h1>
@@ -142,7 +146,7 @@
 	@media print {
 		.page {
 			width: 240mm;
-			padding: 10mm 20mm 0 0;
+			padding: 10mm 40mm 0 0;
 			color: black;
 			font-family: Arial, Helvetica, sans-serif;
 		}
