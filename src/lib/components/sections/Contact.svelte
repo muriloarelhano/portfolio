@@ -17,8 +17,8 @@
 			</div>
 			<div class="flex flex-col p-4 border border-slate-300">
 				<p class="mb-4 font-bold">Message me here</p>
-				<div><i class="fa-brands fa-discord text-xl fa-fw" /> {socialInfo.discord}</div>
-				<div><i class="fa-solid fa-envelope text-xl fa-fw" /> {socialInfo.email}</div>
+				<div><i class="fa-brands fa-discord text-xl fa-fw"></i> {socialInfo.discord}</div>
+				<div><i class="fa-solid fa-envelope text-xl fa-fw"></i> {socialInfo.email}</div>
 			</div>
 		</div>
 	</div>

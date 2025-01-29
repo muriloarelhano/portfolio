@@ -18,9 +18,9 @@
 		<div class="flex flex-row place-content-between">
 			<div class="relative w-[500px] h-[350px]">
 				<img class="absolute left-10 top-16" width="100px" src={dots} alt="dots" />
-				<div class="absolute border border-white w-24 h-24 top-4 right-16" />
+				<div class="absolute border border-white w-24 h-24 top-4 right-16"></div>
 				<img class="absolute bottom-28 right-36" width="80px" src={dots} alt="dots" />
-				<div class="absolute border border-white w-20 h-20 bottom-8 right-0" />
+				<div class="absolute border border-white w-20 h-20 bottom-8 right-0"></div>
 				<img class="absolute bottom-10 left-16" width="100px" src={logo} alt="dots" />
 			</div>
 			<div class="grid grid-cols-3 gap-8 basis-3/6">

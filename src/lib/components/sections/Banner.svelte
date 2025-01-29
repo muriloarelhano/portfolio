@@ -22,7 +22,7 @@
 			<div class="flex flex-row gap-4">
 				<a href="#contact"><button class="btn btn-outline">Contact-me</button></a>
 				<a href="https://github.com/muriloarelhano"
-					><button class="btn"> <i class="fa-brands fa-github text-xl" /> GitHub</button></a
+					><button class="btn"> <i class="fa-brands fa-github text-xl"></i> GitHub</button></a
 				>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 				<img alt="Banner with my photograph" src={banner} class="m-auto" width="400" />
 			</div>
 			<div class="flex flex-row gap-2 border border-white p-2 w-[450px]">
-				<div class="w-3 h-3 bg-purple-500" />
+				<div class="w-3 h-3 bg-purple-500"></div>
 				<p>Currently working on <strong>Gringo</strong> (Brazil)</p>
 			</div>
 		</div>
