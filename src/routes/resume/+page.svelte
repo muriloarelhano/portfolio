@@ -21,7 +21,7 @@
 						</div>
 					</div>
 				</div>
-				<button class="btn btn-primary mb-4 print:hidden" on:click={generatePDF}>
+				<button class="btn btn-primary mb-4 print:hidden" onclick={generatePDF}>
 					<i class="fa-solid fa-download fw"></i>pdf</button
 				>
 			</div>
@@ -31,8 +31,8 @@
 					<h1 class="text-3xl font-bold text-justify mb-4">Profile</h1>
 					<p>
 						Sou bacharel em Sistemas de Informação, tenho experiência principalmente com plataforma
-						NodeJs com Typescript, além de algumas outras linguagens, como Go e .NET/C#. Trabalho
-						com desenvolvimento de microsserviços e aplicações web no geral, também estudo bastante
+						NodeJs com Typescript, além de algumas outras linguagens, como Go. Trabalho com
+						desenvolvimento de microsserviços e aplicações web no geral, também estudo bastante
 						sobre outras áreas como segurança da informação, DevOps e desenvolvimento de games.
 					</p>
 					<hr class="my-4" />
@@ -104,16 +104,22 @@
 							<li>Typescript</li>
 							<li>Nodejs</li>
 							<li>React</li>
+							<li>NextJs</li>
 							<li>Svelte</li>
-							<li>.NET</li>
 							<li>Docker</li>
+							<li>CI/CD</li>
 							<li>Kubernetes</li>
+							<li>Bancos SQL e NoSQL</li>
 							<li>Testes unitários</li>
 						</ul>
 					</div>
-					<!-- <div>
+					<div>
 						<h1 class="text-2xl font-bold mb-4">Outras Competências</h1>
-					</div> -->
+
+						<ul class="list-disc list-inside">
+							<li>Inglês Intermediário</li>
+						</ul>
+					</div>
 					<div class="flex flex-col place-items-start gap-2">
 						<h1 class="text-2xl font-bold">Social</h1>
 						<div>

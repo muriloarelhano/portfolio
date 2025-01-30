@@ -1,13 +1,25 @@
 <script lang="ts">
-	export let stack: string[];
-	export let name: string;
-	export let description: string;
-	export let link: string;
-	export let image: any;
-	export let cover: boolean = false;
-	export let imageSize: {
+	interface Props {
+		stack: string[];
+		name: string;
+		description: string;
+		link: string;
+		image: any;
+		cover?: boolean;
+		imageSize?: {
 		width?: string;
-	} = { width: '200' };
+	};
+	}
+
+	let {
+		stack,
+		name,
+		description,
+		link,
+		image,
+		cover = false,
+		imageSize = { width: '200' }
+	}: Props = $props();
 </script>
 
 <div class="flex flex-col max-w-[350px] border border-white">

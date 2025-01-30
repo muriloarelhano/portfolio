@@ -1,6 +1,5 @@
 <script lang="ts">
-	export let title: string;
-	export let contents: string[];
+	let { title, contents } = $props();
 </script>
 
 <div class="flex flex-col border border-white">

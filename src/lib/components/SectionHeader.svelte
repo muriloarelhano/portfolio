@@ -3,9 +3,13 @@
 		link: string;
 		label: string;
 	}
-	export let title: string;
-	export let button: ButtonProps | undefined = undefined;
-	export let size = 4;
+	interface Props {
+		title: string;
+		button?: ButtonProps | undefined;
+		size?: number;
+	}
+
+	let { title, button = undefined, size = 4 }: Props = $props();
 </script>
 
 <div class="flex flex-row place-items-center mb-8">
