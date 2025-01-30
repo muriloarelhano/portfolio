@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Footer from '$lib/components/sections/Footer.svelte';
 	import Header from '$lib/components/sections/Header.svelte';
+	import { Download } from 'lucide-svelte';
 
 	async function generatePDF() {
 		window.print();
@@ -22,7 +23,7 @@
 					</div>
 				</div>
 				<button class="btn btn-primary mb-4 print:hidden" onclick={generatePDF}>
-					<i class="fa-solid fa-download fw"></i>pdf</button
+					<Download />pdf</button
 				>
 			</div>
 

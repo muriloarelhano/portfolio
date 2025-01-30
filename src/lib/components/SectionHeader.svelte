@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { ExternalLink } from 'lucide-svelte';
+
 	interface ButtonProps {
 		link: string;
 		label: string;
@@ -16,6 +18,10 @@
 	<span class="text-{size}xl"><span class="text-purple-400">#</span>{title}</span>
 	<div class="bg-purple-400 ml-5 w-5/12 h-0.5"></div>
 	{#if button}
-		<a href={button.link} class="ml-auto"><button>{button.label}</button></a>
+		<a href={button.link} class="ml-auto"
+			><button class="btn btn-ghost justify-center"
+				>{button.label} <ExternalLink size={20} /></button
+			></a
+		>
 	{/if}
 </div>
