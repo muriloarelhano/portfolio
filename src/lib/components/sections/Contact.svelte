@@ -4,7 +4,7 @@
 </script>
 
 <section id="contact" class="my-28">
-	<div class="container">
+	<div class="container m-auto">
 		<SectionHeader title={'contact'} />
 		<div class="flex place-content-between w-full my-12">
 			<div class="flex flex-col">

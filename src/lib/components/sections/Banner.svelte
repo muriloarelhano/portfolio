@@ -3,7 +3,7 @@
 </script>
 
 <section class="relative py-10">
-	<div class="container flex flex-row justify-between items-center">
+	<div class="container flex flex-row justify-between items-center m-auto">
 		<div id="banner-description" class="flex flex-col flex-grow-0 basis-2/4 gap-8">
 			<div class="font-bold">
 				<h1 class="text-4xl">

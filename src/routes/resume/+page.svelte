@@ -10,8 +10,8 @@
 <Header />
 
 <main>
-	<div class="container text-white">
-		<div class="page">
+	<div class="container mx-auto text-white">
+		<div class="page print:mr-72">
 			<div id="resume-title" class="flex place-content-between items-center mb-8">
 				<div class="flex gap-4">
 					<div class="flex flex-col place-content-between">
@@ -22,7 +22,7 @@
 					</div>
 				</div>
 				<button class="btn btn-primary mb-4 print:hidden" on:click={generatePDF}>
-					<i class="fa-solid fa-download fw" />pdf</button
+					<i class="fa-solid fa-download fw"></i>pdf</button
 				>
 			</div>
 
@@ -66,12 +66,8 @@
 					<p class="text-xl font-bold mb-4">Engenheiro de Software II, Gringo</p>
 
 					<ul class="list-disc list-inside ml-4">
-						<li>
-							Desenvolvimento de apps mobile em React Native.
-						</li>
-						<li>
-							Desenvolvimento micros serviços em NodeJs em Typescript.
-						</li>
+						<li>Desenvolvimento de apps mobile em React Native.</li>
+						<li>Desenvolvimento micros serviços em NodeJs em Typescript.</li>
 					</ul>
 
 					<hr class="my-4" />
@@ -139,16 +135,15 @@
 
 <style>
 	@page {
-		size: A4;
-		margin: 0;
+		size: auto;
 	}
 
 	@media print {
 		.page {
-			width: 240mm;
-			padding: 10mm 40mm 0 0;
-			color: black;
 			font-family: Arial, Helvetica, sans-serif;
+			width: 230mm;
+			color: black;
+			margin: 0px;
 		}
 	}
 </style>

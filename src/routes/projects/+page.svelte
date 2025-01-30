@@ -10,7 +10,7 @@
 <Header />
 
 <main>
-	<div class="container">
+	<div class="container m-auto">
 		<h1 class="text-4xl mb-8"><span class="text-purple-500">/</span>projects</h1>
 		<SectionHeader title={'Large Projects'} size={2} />
 		<div class="grid grid-cols-3 gap-8 place-content-between mb-16">

@@ -13,7 +13,7 @@
 
 <div class="py-8 print:hidden">
 	<div class="container flex flex-row items-center justify-between m-auto">
-		<h1 class="font-bold">Murilo Arelhano</h1>
+		<h1 class="font-bold text-2xl">Murilo Arelhano</h1>
 
 		<nav class="flex flex-row items-center gap-8">
 			<a href="/">#home</a>

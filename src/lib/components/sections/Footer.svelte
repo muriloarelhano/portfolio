@@ -3,11 +3,11 @@
 </script>
 
 <footer class="mt-12 mb-4 border-t border-t-slate-300 print:hidden">
-	<div class="container">
+	<div class="container m-auto">
 		<div class="flex place-content-between w-full my-12">
 			<div class="flex flex-col">
 				<h2 class="text-lg font-bold mb-2">Murilo Arelhano</h2>
-				<p>Full Stack web developer</p>
+				<p>Full Stack Developer</p>
 			</div>
 			<div class="flex flex-col">
 				<h1 class="text-2xl font-bold mb-4">Media</h1>
@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<p class="text-center">
-			Copyright© {new Date(Date.now()).getFullYear()}. Developed by Murilo Arelhano
+			Copyright© {new Date(Date.now()).getFullYear()} Developed by Me
 		</p>
 	</div>
 </footer>

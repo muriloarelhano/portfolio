@@ -5,7 +5,7 @@
 </script>
 
 <section id="projects" class="mt-28">
-	<div class="container">
+	<div class="container m-auto">
 		<SectionHeader
 			title={'projects'}
 			button={{
