@@ -1,7 +1,7 @@
 export const skills = {
-	languages: ['Typescript', 'C#', 'Go', 'Rust'],
-	frameworks: ['React', 'Svelte', 'Express', 'NestJs', 'NextJs'],
+	languages: ['Typescript', 'Go', 'Rust'],
+	frameworks: ['React', 'NextJs', 'Svelte', 'Express', 'NestJs'],
 	tools: ['VSCode', 'Figma', 'GitHub Actions'],
-	databases: ['Postgres', 'MongoDb'],
-	other: ['Redis', 'Firebase', 'Unreal Engine']
+	databases: ['PostgreSQL', 'MongoDB', 'Redis'],
+	other: ['Firebase', 'Unreal Engine']
 };

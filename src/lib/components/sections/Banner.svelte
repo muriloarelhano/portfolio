@@ -15,8 +15,9 @@
 				<h1 class="text-2xl">Full-Stack Developer</h1>
 			</div>
 			<p>
-				I have experience and study constantly web development with NodeJs, ReactJs, Typescript,
-				micro services, cloud infrastructure, DevOps and information security.
+				I hold a Bachelor's degree in Information Systems and have experience mainly with the NodeJs
+				platform using Typescript and other languages such as Go. I work with development of web
+				applications in general, also study other areas such as DevOps, and game development.
 			</p>
 
 			<div class="flex flex-row gap-4">

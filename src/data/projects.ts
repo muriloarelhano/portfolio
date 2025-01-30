@@ -1,6 +1,6 @@
 import GoDevRel from "$lib/assets/desenvolvedor-de-software.png";
 import Portfolio from "$lib/assets/portfolio.png";
-import Callix from "$lib/assets/logo-calix.png";
+import Callix from "$lib/assets/logo-calix-nova.png";
 import Gringo from "$lib/assets/logo-gringo-yellow.png";
 
 interface ProjectImageProps {
@@ -23,9 +23,9 @@ export const projects: ProjectImageProps[] = [
     image: Gringo,
     link: "https://gringo.com.vc/",
     imageSize: {
-      width: "200",
+      width: "170",
     },
-    stack: ["React Native", "Typescript", "Nodejs", "Express", "PostgreSQL"],
+    stack: ["React Native", "Typescript", "Nodejs", "Express", "PostgreSQL", "GCP"],
   },
   {
     name: "Callix",
@@ -34,9 +34,9 @@ export const projects: ProjectImageProps[] = [
     image: Callix,
     link: "https://www.callix.com.br/",
     imageSize: {
-      width: "200",
+      width: "220",
     },
-    stack: ["Nodejs", "React", "Express", "PostgreSQL"],
+    stack: ["Nodejs", "React", "NextJs", "Express", "PostgreSQL"],
   },
   {
     name: "GoDevRel",
