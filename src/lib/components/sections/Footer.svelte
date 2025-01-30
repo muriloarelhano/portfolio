@@ -1,30 +1,17 @@
 <script>
 	import { socialInfo } from '../../../data/social-info';
+	import { Linkedin, Github, Mail } from 'lucide-svelte';
 </script>
 
-<footer class="mt-12 mb-4 border-t border-t-slate-300 print:hidden">
-	<div class="container m-auto">
-		<div class="flex place-content-between w-full my-12">
-			<div class="flex flex-col">
-				<h2 class="text-lg font-bold mb-2">Murilo Arelhano</h2>
-				<p>Full Stack Developer</p>
-			</div>
-			<div class="flex flex-col">
-				<h1 class="text-2xl font-bold mb-4">Media</h1>
-				<div class="flex gap-3 place-items-center">
-					<a href={socialInfo.linkedInLink} aria-label="media icon"
-						><i class="fa-brands fa-linkedin text-2xl fa-fw"></i></a
-					>
-					<a href={socialInfo.githubLink} aria-label="media icon"
-						><i class="fa-brands fa-github text-2xl fa-fw"></i></a
-					>
-					<a href="mailto:{socialInfo.email}" aria-label="media icon"
-						><i class="fa-solid fa-envelope text-2xl fa-fw"></i></a
-					>
-				</div>
-			</div>
+<footer class="mt-12 mb-2 border-t border-t-slate-300 print:hidden">
+	<div class="container m-auto my-12 felx flex-col place-items-center">
+		<h1 class="text-2xl font-bold mb-4">Social Media</h1>
+		<div class="flex gap-3 place-items-center">
+			<a href={socialInfo.linkedInLink} aria-label="media icon"><Linkedin /></a>
+			<a href={socialInfo.githubLink} aria-label="media icon"><Github /></a>
+			<a href="mailto:{socialInfo.email}" aria-label="media icon"><Mail /></a>
 		</div>
-		<p class="text-center">
+		<p class="text-center mt-4">
 			Copyright© {new Date(Date.now()).getFullYear()} Developed by Me
 		</p>
 	</div>

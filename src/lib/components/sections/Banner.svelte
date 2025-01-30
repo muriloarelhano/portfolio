@@ -1,5 +1,6 @@
 <script>
 	import banner from '$lib/assets/banner.png';
+	import { Github } from 'lucide-svelte';
 </script>
 
 <section class="relative py-10">
@@ -23,7 +24,7 @@
 			<div class="flex flex-row gap-4">
 				<a href="#contact"><button class="btn btn-outline">Contact-me</button></a>
 				<a href="https://github.com/muriloarelhano"
-					><button class="btn"> <i class="fa-brands fa-github text-xl"></i> GitHub</button></a
+					><button class="btn"><Github /> GitHub</button></a
 				>
 			</div>
 		</div>

@@ -1,5 +1,6 @@
 <script>
 	import { socialInfo } from '../../../data/social-info';
+	import { Mail } from 'lucide-svelte';
 	import SectionHeader from '../SectionHeader.svelte';
 </script>
 
@@ -17,8 +18,7 @@
 			</div>
 			<div class="flex flex-col p-4 border border-slate-300">
 				<p class="mb-4 font-bold">Message me here</p>
-				<div><i class="fa-brands fa-discord text-xl fa-fw"></i> {socialInfo.discord}</div>
-				<div><i class="fa-solid fa-envelope text-xl fa-fw"></i> {socialInfo.email}</div>
+				<div class="flex gap-2"><Mail /> {socialInfo.email}</div>
 			</div>
 		</div>
 	</div>

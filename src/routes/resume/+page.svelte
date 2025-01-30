@@ -10,8 +10,8 @@
 <Header />
 
 <main>
-	<div class="container mx-auto text-white">
-		<div class="page print:mr-72">
+	<div class="container mx-auto max-w-screen-xl text-white">
+		<div class="page">
 			<div id="resume-title" class="flex place-content-between items-center mb-8">
 				<div class="flex gap-4">
 					<div class="flex flex-col place-content-between">
@@ -114,7 +114,7 @@
 						</ul>
 					</div>
 					<div>
-						<h1 class="text-2xl font-bold mb-4">Outras Competências</h1>
+						<h1 class="text-2xl font-bold mb-4">Idiomas</h1>
 
 						<ul class="list-disc list-inside">
 							<li>Inglês Intermediário</li>
@@ -147,7 +147,7 @@
 	@media print {
 		.page {
 			font-family: Arial, Helvetica, sans-serif;
-			width: 230mm;
+			width: 220mm;
 			color: black;
 			margin: 0px;
 		}
