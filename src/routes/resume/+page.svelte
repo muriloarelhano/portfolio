@@ -18,7 +18,7 @@
 					<div class="flex flex-col place-content-between">
 						<div>
 							<p>Desenvolvedor Full-stack</p>
-							<p class="text-5xl font-bold">Murilo Arelhano</p>
+							<p class="text-4xl font-bold">Murilo Arelhano</p>
 						</div>
 					</div>
 				</div>
@@ -130,11 +130,11 @@
 						<h1 class="text-2xl font-bold">Social</h1>
 						<div>
 							<p class="font-semibold">LinkedIn</p>
-							<a href="https://linkedin.com/in/muriloarelhano">linkedin.com/in/muriloarelhano</a>
+							<a class="link link-primary" href="https://linkedin.com/in/muriloarelhano">linkedin.com/in/muriloarelhano</a>
 						</div>
 						<div>
 							<p class="font-semibold">Personal Website</p>
-							<a href="https://muriloarelhano.com.br">muriloarelhano.com.br</a>
+							<a class="link link-primary" href="https://muriloarelhano.com.br">muriloarelhano.com.br</a>
 						</div>
 					</div>
 				</div>
@@ -153,7 +153,7 @@
 	@media print {
 		.page {
 			font-family: Arial, Helvetica, sans-serif;
-			width: 220mm;
+			width: 235mm;
 			color: black;
 			margin: 0px;
 		}
