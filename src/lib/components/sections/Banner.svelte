@@ -16,9 +16,11 @@
 				<h1 class="text-2xl">Full-Stack Developer</h1>
 			</div>
 			<p>
-				I hold a Bachelor's degree in Information Systems and have experience mainly with the NodeJs
-				platform using Typescript and other languages such as Go. I work with development of web
-				applications in general, also study other areas such as DevOps, and game development.
+				I have a Bachelor's degree in Information Systems and work as a developer focused on Node.js
+				with TypeScript, React, Next.js, and other languages like Go. I specialize in building web
+				applications, microservices, and APIs as a full-stack developer, always prioritizing
+				scalability and best practices. I also have a strong interest in information security,
+				DevOps, and game development, constantly seeking new knowledge and challenges.
 			</p>
 
 			<div class="flex flex-row gap-4">
