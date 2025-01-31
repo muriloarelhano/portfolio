@@ -17,7 +17,7 @@
 				<div class="flex gap-4">
 					<div class="flex flex-col place-content-between">
 						<div>
-							<p>Full Stack Developer</p>
+							<p>Desenvolvedor Full-stack</p>
 							<p class="text-5xl font-bold">Murilo Arelhano</p>
 						</div>
 					</div>
@@ -31,44 +31,49 @@
 				<div id="resume-main-info" class="basis-8/12">
 					<h1 class="text-3xl font-bold text-justify mb-4">Profile</h1>
 					<p>
-						Sou bacharel em Sistemas de Informação, tenho experiência principalmente com plataforma
-						NodeJs com Typescript, além de algumas outras linguagens, como Go. Trabalho com
-						desenvolvimento de microsserviços e aplicações web no geral, também estudo bastante
-						sobre outras áreas como segurança da informação, DevOps e desenvolvimento de games.
+						Sou bacharel em Sistemas de Informação e desenvolvedor com foco em Node.js com
+						TypeScript, React, NextJs e outras linguagens como Go. Atuo na criação de aplicações
+						web, microsserviços e APIs como full-stack, sempre focado em escalabilidade e boas
+						práticas. Outros interesses em segurança da informação, DevOps e desenvolvimento de
+						games, buscando novos conhecimentos e novos desafios.
 					</p>
 					<hr class="my-4" />
 
 					<h1 class="text-3xl font-bold mb-4">Experiência Profissional</h1>
 
 					<p class="text-sm">Setembro 2021 - Outubro 2022</p>
-					<p class="text-xl font-bold mb-4">Desenvolvedor full-stack, Climatempo</p>
+					<p class="text-xl font-bold mb-4">Desenvolvedor Full-stack, Climatempo</p>
 					<ul class="list-disc list-inside ml-4">
+						<li>Desenvolvimento micros serviços em Node.js no padrão REST, gRPC e GraphQL.</li>
+						<li>Implantação de filas de mensageira com RabbitMQ.</li>
+						<li>Criação de teste de unitários e de integração.</li>
+						<li>Implantação de bancos de dados SQL e NoSQL.</li>
 						<li>
-							Desenvolvimento serviços e micros serviços em NodeJs no padrão REST, gRPC e GraphQL.
+							Criação de pipelines CI/CD, automatizando deploy de aplicações em ambiente Kubernetes.
 						</li>
-						<li>Aplicações com uso de filas de mensageira, com RabbitMQ.</li>
-						<li>Desenvolvimento de teste de unitários e de integração.</li>
-						<li>Bancos de dados SQL e NoSQL (Diversos).</li>
-						<li>Criação de pipelines CI/CD e deploy de aplicações em ambiente Kubernetes.</li>
 						<li>
 							Implantação de ferramentas de monitoramento e observabilidade, com Grafana,
 							Prometheus, Graylog e Istio.
 						</li>
-						<li>Hexagonal Architecture.</li>
 					</ul>
 
 					<p class="text-sm mt-4">Setembro 2022 - Outubro 2023</p>
-					<p class="text-xl font-bold mb-4">Desenvolvedor full-stack, Callix</p>
+					<p class="text-xl font-bold mb-4">Desenvolvedor Full-stack, Callix</p>
 					<ul class="list-disc list-inside ml-4">
-						<li>Desenvolvimento de aplicações full-stack em NodeJs/ReactJs com Typescript.</li>
+						<li>Desenvolvimento de aplicações full-stack em Node.js, ReactJs e NextJs.</li>
+						<li>Integração do back-end com banco de dados PostgreSQL.</li>
+						<li>Desenvolvimentos de APIs no padrão REST.</li>
 					</ul>
 
 					<p class="text-sm mt-4">Outubro 2023 - Atualmente</p>
-					<p class="text-xl font-bold mb-4">Engenheiro de Software II, Gringo</p>
+					<p class="text-xl font-bold mb-4">Engenheiro de Software, Gringo</p>
 
 					<ul class="list-disc list-inside ml-4">
 						<li>Desenvolvimento de apps mobile em React Native.</li>
-						<li>Desenvolvimento micros serviços em NodeJs em Typescript.</li>
+						<li>Desenvolvimento microsserviços em Node.js em Typescript.</li>
+						<li>Integração com banco de dados PostgreSQL e serviços do Firebase</li>
+						<li>Implantação de ferramentas de monitoramento com New Relic e Prometheus</li>
+						<li>Deploys das aplicações em ambiente Kubernetes na Google Cloud</li>
 					</ul>
 
 					<hr class="my-4" />
@@ -79,7 +84,7 @@
 					<p class="text-xl font-bold">Bacharelado, Sistemas de Informação</p>
 					<p>Universidade Federal de Mato Grosso do Sul</p>
 
-					<p class="text-sm mt-4">Janeiro 2024 - Cursando</p>
+					<p class="text-sm mt-4">Janeiro 2024 - Julho 2025</p>
 					<p class="text-xl font-bold">Especialização em Arquitetura de Soluções</p>
 					<p>PUC Minas</p>
 				</div>
@@ -103,7 +108,7 @@
 						<h1 class="text-2xl font-bold mb-4">Competências</h1>
 						<ul class="list-disc list-inside">
 							<li>Typescript</li>
-							<li>Nodejs</li>
+							<li>Node.js</li>
 							<li>React</li>
 							<li>NextJs</li>
 							<li>Svelte</li>
