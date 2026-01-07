@@ -3,6 +3,11 @@
 	import { skills } from '../../data/skills';
 </script>
 
+<svelte:head>
+	<title>Skills | Murilo Arelhano</title>
+	<meta name="description" content="Technical skills and technologies I use to build software, including languages like TypeScript, Go, and frameworks like Svelte, React, and Node.js." />
+</svelte:head>
+
 <main>
 	<div class="container m-auto px-4 lg:px-0">
 		<h1 class="text-4xl mb-8 font-mono"><span class="text-primary">/</span>skills</h1>
