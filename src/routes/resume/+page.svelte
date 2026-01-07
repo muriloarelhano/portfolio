@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Footer from '$lib/components/sections/Footer.svelte';
-	import Header from '$lib/components/sections/Header.svelte';
 	import { Download } from 'lucide-svelte';
 
 	async function generatePDF() {
@@ -8,17 +6,15 @@
 	}
 </script>
 
-<Header />
-
 <main>
 	<div class="container mx-auto max-w-screen-xl text-white">
 		<div class="page">
 			<div id="resume-title" class="flex place-content-between items-center mb-8">
 				<div class="flex gap-4">
-					<div class="flex flex-col place-content-between">
+					<div class="flex flex-col justify-between">
 						<div>
-							<p>Desenvolvedor Full-stack</p>
-							<p class="text-4xl font-bold">Murilo Arelhano</p>
+							<p class="text-primary font-mono text-sm tracking-wider uppercase mb-1">Desenvolvedor Full-stack</p>
+							<h1 class="text-5xl font-black tracking-tight">Murilo Arelhano</h1>
 						</div>
 					</div>
 				</div>
@@ -142,8 +138,6 @@
 		</div>
 	</div>
 </main>
-
-<Footer />
 
 <style>
 	@page {

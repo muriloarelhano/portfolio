@@ -2,20 +2,9 @@ import GoDevRel from "$lib/assets/desenvolvedor-de-software.png";
 import Portfolio from "$lib/assets/portfolio.png";
 import Callix from "$lib/assets/logo-calix-nova.png";
 import Gringo from "$lib/assets/logo-gringo-yellow.png";
+import type { Project } from "$lib/types";
 
-interface ProjectImageProps {
-  stack: string[];
-  name: string;
-  description: string;
-  link: string;
-  image: any;
-  cover?: boolean;
-  imageSize?: {
-    width?: string;
-  };
-}
-
-export const projects: ProjectImageProps[] = [
+export const projects: Project[] = [
   {
     name: "Gringo",
     description:
@@ -46,7 +35,7 @@ export const projects: ProjectImageProps[] = [
     stack: ["Nodejs", "React", "NestJs", "PostgreSQL", "Redis", "Netlify"],
   },
 ];
-export const smallProjects: ProjectImageProps[] = [
+export const smallProjects: Project[] = [
   {
     name: "Portfolio",
     description: "My personal portfolio",
