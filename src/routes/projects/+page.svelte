@@ -4,6 +4,11 @@
 	import { projects, smallProjects } from '../../data/projects';
 </script>
 
+<svelte:head>
+	<title>Projects | Murilo Arelhano</title>
+	<meta name="description" content="A collection of my recent software development projects, featuring full-stack applications, frontend experiments, and backend systems." />
+</svelte:head>
+
 <main>
 	<div class="container m-auto px-4 lg:px-0">
 		<h1 class="text-4xl mb-8 font-mono"><span class="text-primary">/</span>projects</h1>

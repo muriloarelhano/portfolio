@@ -6,6 +6,11 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Resume | Murilo Arelhano</title>
+	<meta name="description" content="Professional resume of Murilo Arelhano, a Full-stack Developer with experience in modern web technologies and software architecture." />
+</svelte:head>
+
 <main>
 	<div class="container mx-auto max-w-screen-xl text-white">
 		<div class="page">
