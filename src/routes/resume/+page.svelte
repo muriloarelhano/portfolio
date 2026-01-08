@@ -48,7 +48,6 @@
 
 			<div id="resume-container" class="flex gap-10 print:gap-8">
 				<div id="resume-main-info" class="basis-8/12">
-					<h1 class="text-3xl font-bold text-justify mb-4">Profile</h1>
 					<p>
 						Sou bacharel em Sistemas de Informação e desenvolvedor com foco em Node.js com
 						TypeScript, React, NextJs e Go. Atuo na criação de aplicações web, microsserviços e APIs
