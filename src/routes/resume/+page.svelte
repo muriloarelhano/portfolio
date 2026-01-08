@@ -4,6 +4,19 @@
 	async function generatePDF() {
 		window.print();
 	}
+
+	// Data de início da primeira experiência: Junho 2021
+	const startDate = new Date(2021, 5);
+	const today = new Date();
+	// Usar o último dia do mês corrente para considerar o mês completo
+	const now = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+	let years = now.getFullYear() - startDate.getFullYear();
+	let months = now.getMonth() - startDate.getMonth();
+
+	if (months < 0) {
+		years--;
+		months += 12;
+	}
 </script>
 
 <svelte:head>
@@ -43,8 +56,6 @@
 						tenho interesses na área segurança da informação e DevOps.
 					</p>
 					<hr class="my-4" />
-
-					<h1 class="text-3xl font-bold mb-4">Experiência Profissional</h1>
 
 					<p class="text-sm">Maio 2025 - Atualmente</p>
 					<p class="text-xl font-bold mb-4">Desenvolvedor de Software Sênior, SPS Group</p>
@@ -106,16 +117,18 @@
 					<div>
 						<h1 class="text-2xl font-bold mb-4">Competências</h1>
 						<ul class="list-disc list-inside">
-							<li>Typescript</li>
+							<li>Typescript e Go</li>
 							<li>Node.js</li>
 							<li>React</li>
 							<li>NextJs</li>
-							<li>Svelte</li>
 							<li>Docker</li>
-							<li>CI/CD</li>
 							<li>Kubernetes</li>
+							<li>CI/CD</li>
+							<li>Monitoramento</li>
 							<li>Bancos SQL e NoSQL</li>
+							<li>PostgreSQL</li>
 							<li>Testes unitários</li>
+							<li>Integração com LLMs (AI)</li>
 						</ul>
 					</div>
 					<div>
