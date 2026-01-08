@@ -2,9 +2,21 @@ import GoDevRel from "$lib/assets/desenvolvedor-de-software.png";
 import Portfolio from "$lib/assets/portfolio.png";
 import Callix from "$lib/assets/logo-calix-nova.png";
 import Gringo from "$lib/assets/logo-gringo-yellow.png";
+import Aster from "$lib/assets/aster.png";
 import type { Project } from "$lib/types";
 
 export const projects: Project[] = [
+  {
+    name: "Aster",
+    description:
+      "Aster is an integration platform built to connect web applications to SAP (B1 and S/4HANA), providing data sync, APIs and business workflows.",
+    image: Aster,
+    link: "https://www.spsgroup.com.br/portal-aster/",
+    imageSize: {
+      width: "170",
+    },
+    stack: ["Nodejs", "JavaScript", "React", "PostgreSQL", "SAP B1", "SAP S/4HANA"],
+  },
   {
     name: "Gringo",
     description:
@@ -34,6 +46,7 @@ export const projects: Project[] = [
     link: "https://godevrel.netlify.app/",
     stack: ["Nodejs", "React", "NestJs", "PostgreSQL", "Redis", "Netlify"],
   },
+
 ];
 export const smallProjects: Project[] = [
   {
