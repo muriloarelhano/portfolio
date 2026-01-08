@@ -8,7 +8,10 @@
 
 <svelte:head>
 	<title>Resume | Murilo Arelhano</title>
-	<meta name="description" content="Professional resume of Murilo Arelhano, a Full-stack Developer with experience in modern web technologies and software architecture." />
+	<meta
+		name="description"
+		content="Professional resume of Murilo Arelhano, a Full-stack Developer with experience in modern web technologies and software architecture."
+	/>
 </svelte:head>
 
 <main>
@@ -18,7 +21,9 @@
 				<div class="flex gap-4">
 					<div class="flex flex-col justify-between">
 						<div>
-							<p class="text-primary font-mono text-sm tracking-wider uppercase mb-1">Desenvolvedor Full-stack</p>
+							<p class="text-primary font-mono text-sm tracking-wider uppercase mb-1">
+								Desenvolvedor Full-stack
+							</p>
 							<h1 class="text-5xl font-black tracking-tight">Murilo Arelhano</h1>
 						</div>
 					</div>
@@ -33,29 +38,32 @@
 					<h1 class="text-3xl font-bold text-justify mb-4">Profile</h1>
 					<p>
 						Sou bacharel em Sistemas de Informação e desenvolvedor com foco em Node.js com
-						TypeScript, React, NextJs e outras linguagens como Go. Atuo na criação de aplicações
-						web, microsserviços e APIs como full-stack, sempre focado em escalabilidade e boas
-						práticas. Outros interesses em segurança da informação, DevOps e desenvolvimento de
-						games, buscando novos conhecimentos e novos desafios.
+						TypeScript, React, NextJs e Go. Atuo na criação de aplicações web, microsserviços e APIs
+						como full-stack, sempre focado em escalabilidade, qualidade e boas práticas. Também
+						tenho interesses na área segurança da informação e DevOps.
 					</p>
 					<hr class="my-4" />
 
 					<h1 class="text-3xl font-bold mb-4">Experiência Profissional</h1>
 
-					<p class="text-sm">Setembro 2021 - Outubro 2022</p>
-					<p class="text-xl font-bold mb-4">Desenvolvedor Full-stack, Climatempo</p>
+					<p class="text-sm">Maio 2025 - Atualmente</p>
+					<p class="text-xl font-bold mb-4">Desenvolvedor de Software Sênior, SPS Group</p>
 					<ul class="list-disc list-inside ml-4">
-						<li>Desenvolvimento micros serviços em Node.js no padrão REST, gRPC e GraphQL.</li>
-						<li>Implantação de filas de mensageira com RabbitMQ.</li>
-						<li>Criação de teste de unitários e de integração.</li>
-						<li>Implantação de bancos de dados SQL e NoSQL.</li>
-						<li>
-							Criação de pipelines CI/CD, automatizando deploy de aplicações em ambiente Kubernetes.
-						</li>
-						<li>
-							Implantação de ferramentas de monitoramento e observabilidade, com Grafana,
-							Prometheus, Graylog e Istio.
-						</li>
+						<li>Desenvolvedor de Software Sênior com atuação em backend e frontend.</li>
+						<li>Desenvolvimento de aplicações web com React.js.</li>
+						<li>Construção de APIs e serviços em Node.js.</li>
+						<li>Arquitetura de sistemas, escalabilidade e boas práticas.</li>
+						<li>Integração com SAP (S/4HANA, BusinessOne).</li>
+					</ul>
+
+					<p class="text-sm mt-4">Outubro 2023 - Maio 2025</p>
+					<p class="text-xl font-bold mb-4">Engenheiro de Software, Gringo</p>
+					<ul class="list-disc list-inside ml-4">
+						<li>Desenvolvimento de apps mobile em React Native.</li>
+						<li>Desenvolvimento microsserviços em Node.js em Typescript.</li>
+						<li>Integração com banco de dados PostgreSQL e serviços do Firebase</li>
+						<li>Implantação de ferramentas de monitoramento com New Relic e Prometheus</li>
+						<li>Deploys das aplicações em ambiente Kubernetes na Google Cloud</li>
 					</ul>
 
 					<p class="text-sm mt-4">Setembro 2022 - Outubro 2023</p>
@@ -66,15 +74,16 @@
 						<li>Desenvolvimentos de APIs no padrão REST.</li>
 					</ul>
 
-					<p class="text-sm mt-4">Outubro 2023 - Atualmente</p>
-					<p class="text-xl font-bold mb-4">Engenheiro de Software, Gringo</p>
-
+					<p class="text-sm mt-4">Setembro 2021 - Outubro 2022</p>
+					<p class="text-xl font-bold mb-4">Desenvolvedor Full-stack, Climatempo</p>
 					<ul class="list-disc list-inside ml-4">
-						<li>Desenvolvimento de apps mobile em React Native.</li>
-						<li>Desenvolvimento microsserviços em Node.js em Typescript.</li>
-						<li>Integração com banco de dados PostgreSQL e serviços do Firebase</li>
-						<li>Implantação de ferramentas de monitoramento com New Relic e Prometheus</li>
-						<li>Deploys das aplicações em ambiente Kubernetes na Google Cloud</li>
+						<li>Desenvolvimento micros serviços em Node.js no padrão REST, gRPC e GraphQL.</li>
+						<li>Implantação de filas de mensageira com RabbitMQ.</li>
+						<li>Criação de teste de unitários e de integração.</li>
+						<li>
+							Criação de pipelines CI/CD, automatizando deploy de aplicações em ambiente Kubernetes.
+						</li>
+						<li>Implantação de ferramentas de monitoramento e observabilidade</li>
 					</ul>
 
 					<hr class="my-4" />
@@ -90,7 +99,7 @@
 					<p>PUC Minas</p>
 				</div>
 				<div id="resume-side-info" class="flex flex-col place-items-start gap-4">
-					<h1 class="text-2xl font-bold">Contact</h1>
+					<h1 class="text-2xl font-bold">Contato</h1>
 					<div class="flex flex-col place-items-start gap-2">
 						<div>
 							<p class="font-semibold">Endereço</p>
@@ -131,11 +140,15 @@
 						<h1 class="text-2xl font-bold">Social</h1>
 						<div>
 							<p class="font-semibold">LinkedIn</p>
-							<a class="link link-primary" href="https://linkedin.com/in/muriloarelhano">linkedin.com/in/muriloarelhano</a>
+							<a class="link link-primary" href="https://linkedin.com/in/muriloarelhano"
+								>linkedin.com/in/muriloarelhano</a
+							>
 						</div>
 						<div>
-							<p class="font-semibold">Personal Website</p>
-							<a class="link link-primary" href="https://muriloarelhano.com.br">muriloarelhano.com.br</a>
+							<p class="font-semibold">Website Pessoal</p>
+							<a class="link link-primary" href="https://muriloarelhano.com.br"
+								>muriloarelhano.com.br</a
+							>
 						</div>
 					</div>
 				</div>
