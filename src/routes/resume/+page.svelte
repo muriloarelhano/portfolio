@@ -50,8 +50,7 @@
 					<p class="text-xl font-bold mb-4">Desenvolvedor de Software Sênior, SPS Group</p>
 					<ul class="list-disc list-inside ml-4">
 						<li>Desenvolvedor de Software Sênior com atuação em backend e frontend.</li>
-						<li>Desenvolvimento de aplicações web com React.js.</li>
-						<li>Construção de APIs e serviços em Node.js.</li>
+						<li>Desenvolvimento de soluções full-stack com React.js e NodeJs .</li>
 						<li>Arquitetura de sistemas, escalabilidade e boas práticas.</li>
 						<li>Integração com SAP (S/4HANA, BusinessOne).</li>
 					</ul>
