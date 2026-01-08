@@ -73,7 +73,7 @@
 						<li>Desenvolvimentos de APIs no padrão REST.</li>
 					</ul>
 
-					<p class="text-sm mt-4">Setembro 2021 - Outubro 2022</p>
+					<p class="text-sm mt-4">Junho 2021 - Outubro 2022</p>
 					<p class="text-xl font-bold mb-4">Desenvolvedor Full-stack, Climatempo</p>
 					<ul class="list-disc list-inside ml-4">
 						<li>Desenvolvimento micros serviços em Node.js no padrão REST, gRPC e GraphQL.</li>
@@ -86,16 +86,6 @@
 					</ul>
 
 					<hr class="my-4" />
-
-					<h1 class="text-3xl font-bold mb-4">Formação Acadêmica</h1>
-
-					<p class="text-sm">Janeiro 2019 - Julho 2023</p>
-					<p class="text-xl font-bold">Bacharelado, Sistemas de Informação</p>
-					<p>Universidade Federal de Mato Grosso do Sul</p>
-
-					<p class="text-sm mt-4">Janeiro 2024 - Julho 2025</p>
-					<p class="text-xl font-bold">Especialização em Arquitetura de Soluções</p>
-					<p>PUC Minas</p>
 				</div>
 				<div id="resume-side-info" class="flex flex-col place-items-start gap-4">
 					<h1 class="text-2xl font-bold">Contato</h1>
@@ -149,6 +139,22 @@
 								>muriloarelhano.com.br</a
 							>
 						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="resume-education">
+				<h1 class="text-3xl font-bold mb-4">Formação Acadêmica</h1>
+				<div class="flex gap-12">
+					<div>
+						<p class="text-sm">Janeiro 2019 - Julho 2023</p>
+						<p class="text-xl font-bold">Bacharelado, Sistemas de Informação</p>
+						<p>Universidade Federal de Mato Grosso do Sul</p>
+					</div>
+					<div>
+						<p class="text-sm">Janeiro 2024 - Julho 2025</p>
+						<p class="text-xl font-bold">Especialização em Arquitetura de Soluções</p>
+						<p>PUC Minas</p>
 					</div>
 				</div>
 			</div>
