@@ -2,6 +2,7 @@
 	import Banner from '$lib/components/sections/Banner.svelte';
 	import Projects from '$lib/components/sections/Projects.svelte';
 	import Skills from '$lib/components/sections/Skills.svelte';
+	import Timeline from '$lib/components/sections/Timeline.svelte';
 	import Contact from '$lib/components/sections/Contact.svelte';
 
 	const structuredData = {
@@ -28,5 +29,6 @@
 	<Banner />
 	<Projects />
 	<Skills />
+	<Timeline />
 	<Contact />
 </main>

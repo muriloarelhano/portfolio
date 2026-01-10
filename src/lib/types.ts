@@ -24,3 +24,13 @@ export type Skills = {
 	databases: string[];
 	other: string[];
 };
+
+export type Experience = {
+	company: string
+	role: string
+	period: string
+	description?: string[]
+	year?: number
+	type: 'work' | 'education'
+	badge?: string;
+};
