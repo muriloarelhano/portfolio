@@ -1,0 +1,18 @@
+{
+  "common.name": "Murilo Arelhano",
+  "common.roleFullStack": "Full-Stack Developer",
+  "common.github": "GitHub",
+  "common.brazil": "Brazil",
+  "nav.home": "home",
+  "nav.projects": "projects",
+  "nav.skills": "skills",
+  "nav.contacts": "contacts",
+  "nav.resume": "resume",
+  "nav.changeLanguage": "Change language to {{language}}",
+  "nav.languageLabel": "Language",
+  "button.viewAll": "view all",
+  "button.viewLive": "View Live",
+  "button.contactMe": "Contact me",
+  "button.seeResume": "See Resume",
+  "button.downloadPdf": "pdf"
+}

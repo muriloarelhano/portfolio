@@ -1,0 +1,43 @@
+{
+  "data.project.aster.description": "Aster is an integration platform built to connect web applications to SAP (B1 and S/4HANA), providing data sync, APIs and business workflows.",
+  "data.project.gringo.description": "Gringo is an app that was born to simplify the life of the Brazilian driver.",
+  "data.project.callix.description": "Callix is a multichannel SaaS contact center platform.",
+  "data.project.godevrel.description": "Project created to help Developer Relations professionals.",
+  "data.project.portfolio.description": "My personal portfolio.",
+  "data.experience.ufms.role": "Bachelor's in Information Systems",
+  "data.experience.ufms.period": "Jan 2019 - Jul 2023",
+  "data.experience.climatempo.role": "Full-stack Developer",
+  "data.experience.climatempo.period": "Jun 2021 - Oct 2022",
+  "data.experience.climatempo.description": [
+    "REST, gRPC, and GraphQL microservices development",
+    "Messaging with RabbitMQ and CI/CD pipelines"
+  ],
+  "data.experience.callix.role": "Full-stack Developer",
+  "data.experience.callix.period": "Sep 2022 - Oct 2023",
+  "data.experience.callix.description": [
+    "Full-stack development with Node.js, React, and Next.js",
+    "PostgreSQL integration and REST APIs"
+  ],
+  "data.experience.gringo.role": "Software Engineer",
+  "data.experience.gringo.period": "Oct 2023 - May 2025",
+  "data.experience.gringo.description": [
+    "Mobile development with React Native",
+    "Node.js microservices and deploys to Google Cloud/K8s"
+  ],
+  "data.experience.puc.role": "Specialization in Solutions Architecture",
+  "data.experience.puc.period": "Jan 2024 - Jul 2025",
+  "data.experience.orbe.role": "Full-stack Developer",
+  "data.experience.orbe.period": "2025 - 2026",
+  "data.experience.orbe.badge": "Contractor",
+  "data.experience.orbe.description": [
+    "Go backend and Next.js frontend",
+    "LLM implementation in Python",
+    "Whisper-X audio transcription model"
+  ],
+  "data.experience.sps.role": "Senior Software Developer",
+  "data.experience.sps.period": "May 2025 - Present",
+  "data.experience.sps.description": [
+    "Technical leadership in full-stack projects",
+    "Integration with the SAP ecosystem"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "common.name": "Murilo Arelhano",
+  "common.roleFullStack": "Desenvolvedor Full-stack",
+  "common.github": "GitHub",
+  "common.brazil": "Brasil",
+  "nav.home": "inicio",
+  "nav.projects": "projetos",
+  "nav.skills": "habilidades",
+  "nav.contacts": "contatos",
+  "nav.resume": "currículo",
+  "nav.changeLanguage": "Trocar idioma para {{language}}",
+  "nav.languageLabel": "Idioma",
+  "button.viewAll": "ver tudo",
+  "button.viewLive": "Ver online",
+  "button.contactMe": "Fale comigo",
+  "button.seeResume": "Ver currículo",
+  "button.downloadPdf": "pdf"
+}

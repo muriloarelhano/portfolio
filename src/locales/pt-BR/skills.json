@@ -1,0 +1,10 @@
+{
+  "skills.sectionTitle": "habilidades",
+  "skills.pageTitle": "habilidades",
+  "skills.category.languages": "Linguagens",
+  "skills.category.frameworks": "Frameworks",
+  "skills.category.tools": "Ferramentas",
+  "skills.category.databases": "Bancos de dados",
+  "skills.category.other": "Outros",
+  "skills.metaDescription": "Habilidades técnicas e tecnologias que utilizo para construir software, incluindo linguagens como TypeScript, Go e frameworks como Svelte, React e Node.js."
+}

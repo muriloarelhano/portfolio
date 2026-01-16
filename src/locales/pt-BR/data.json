@@ -1,0 +1,43 @@
+{
+  "data.project.aster.description": "Aster é uma plataforma de integração criada para conectar aplicações web ao SAP (B1 e S/4HANA), oferecendo sincronização de dados, APIs e fluxos de negócio.",
+  "data.project.gringo.description": "Gringo é um aplicativo criado para simplificar a vida do motorista brasileiro.",
+  "data.project.callix.description": "Callix é uma plataforma SaaS multicanal para contact center.",
+  "data.project.godevrel.description": "Projeto criado para ajudar profissionais de Developer Relations.",
+  "data.project.portfolio.description": "Meu portfólio pessoal.",
+  "data.experience.ufms.role": "Bacharelado em Sistemas de Informação",
+  "data.experience.ufms.period": "Jan 2019 - Jul 2023",
+  "data.experience.climatempo.role": "Desenvolvedor Full-stack",
+  "data.experience.climatempo.period": "Jun 2021 - Out 2022",
+  "data.experience.climatempo.description": [
+    "Desenvolvimento de microsserviços REST, gRPC e GraphQL",
+    "Mensageria com RabbitMQ e pipelines CI/CD"
+  ],
+  "data.experience.callix.role": "Desenvolvedor Full-stack",
+  "data.experience.callix.period": "Set 2022 - Out 2023",
+  "data.experience.callix.description": [
+    "Desenvolvimento Full-stack com Node.js, React e Next.js",
+    "Integração com PostgreSQL e APIs REST"
+  ],
+  "data.experience.gringo.role": "Engenheiro de Software",
+  "data.experience.gringo.period": "Out 2023 - Mai 2025",
+  "data.experience.gringo.description": [
+    "Desenvolvimento Mobile com React Native",
+    "Microsserviços em Node.js e deploy em Google Cloud/K8s"
+  ],
+  "data.experience.puc.role": "Especialização em Arquitetura de Soluções",
+  "data.experience.puc.period": "Jan 2024 - Jul 2025",
+  "data.experience.orbe.role": "Desenvolvedor Full-stack",
+  "data.experience.orbe.period": "2025 - 2026",
+  "data.experience.orbe.badge": "PJ Contractor",
+  "data.experience.orbe.description": [
+    "Backend em Go e Frontend em Next.js",
+    "Implementação de LLMs em Python",
+    "Modelo de transcrição de áudio Whisper-X"
+  ],
+  "data.experience.sps.role": "Desenvolvedor de Software Sênior",
+  "data.experience.sps.period": "Mai 2025 - Atualmente",
+  "data.experience.sps.description": [
+    "Liderança técnica em projetos Full-stack",
+    "Integração com ecossistema SAP"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "meta.site.title": "Murilo Arelhano - Software Engineer Portfolio",
+  "meta.site.description": "Software Engineer specializing in building exceptional digital experiences. Explore my projects, skills, and professional journey.",
+  "meta.site.keywords": "Murilo Arelhano, Software Engineer, Portfolio, Full-stack, Frontend, Backend, SvelteKit, TypeScript, Developer",
+  "meta.site.ogTitle": "Murilo Arelhano - Software Engineer Portfolio",
+  "meta.site.ogDescription": "Software Engineer specializing in building exceptional digital experiences. Explore my projects, skills, and professional journey.",
+  "meta.projects.title": "Projects | Murilo Arelhano",
+  "meta.projects.description": "A collection of my recent software development projects, featuring full-stack applications, frontend experiments, and backend systems.",
+  "meta.skills.title": "Skills | Murilo Arelhano",
+  "meta.skills.description": "Technical skills and technologies I use to build software, including languages like TypeScript, Go, and frameworks like Svelte, React, and Node.js.",
+  "meta.resume.title": "Resume | Murilo Arelhano",
+  "meta.resume.description": "Professional resume of Murilo Arelhano, a Full-stack Developer with experience in modern web technologies and software architecture.",
+  "meta.home.structured.jobTitle": "Software Engineer",
+  "meta.home.structured.description": "Software Engineer specializing in building exceptional digital experiences."
+}

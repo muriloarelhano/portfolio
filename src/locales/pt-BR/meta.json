@@ -1,0 +1,15 @@
+{
+  "meta.site.title": "Murilo Arelhano - Portfólio de Engenharia de Software",
+  "meta.site.description": "Engenheiro de Software especializado em construir experiências digitais excepcionais. Explore meus projetos, habilidades e trajetória profissional.",
+  "meta.site.keywords": "Murilo Arelhano, Engenheiro de Software, Portfólio, Full-stack, Frontend, Backend, SvelteKit, TypeScript, Desenvolvedor",
+  "meta.site.ogTitle": "Murilo Arelhano - Portfólio de Engenharia de Software",
+  "meta.site.ogDescription": "Engenheiro de Software especializado em construir experiências digitais excepcionais. Explore meus projetos, habilidades e trajetória profissional.",
+  "meta.projects.title": "Projetos | Murilo Arelhano",
+  "meta.projects.description": "Uma coleção dos meus projetos de desenvolvimento de software, com aplicações full-stack, experimentos frontend e sistemas backend.",
+  "meta.skills.title": "Habilidades | Murilo Arelhano",
+  "meta.skills.description": "Habilidades técnicas e tecnologias que utilizo para construir software, incluindo linguagens como TypeScript, Go e frameworks como Svelte, React e Node.js.",
+  "meta.resume.title": "Currículo | Murilo Arelhano",
+  "meta.resume.description": "Currículo profissional de Murilo Arelhano, um desenvolvedor Full-stack com experiência em tecnologias web modernas e arquitetura de software.",
+  "meta.home.structured.jobTitle": "Engenheiro de Software",
+  "meta.home.structured.description": "Engenheiro de Software especializado em construir experiências digitais excepcionais."
+}
