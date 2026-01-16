@@ -5,6 +5,13 @@
 	import { t } from '$lib/i18n';
 
 	const displayedProjects = [...projects, ...smallProjects].slice(0, 4);
+
+	const getProjectDescription = (project: (typeof projects)[number]) => {
+		if (project.descriptionKey) {
+			return $t(project.descriptionKey);
+		}
+		return project.description ?? '';
+	};
 </script>
 
 <section id="projects" class="mt-28">
@@ -21,7 +28,7 @@
 			{#each displayedProjects as project}
 				<ProjectCard
 					name={project.name}
-					description={$t(project.descriptionKey)}
+					description={getProjectDescription(project)}
 					image={project.image}
 					link={project.link}
 					stack={project.stack}

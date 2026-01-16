@@ -6,6 +6,12 @@
 
 	const pageTitle = $derived($t('meta.projects.title'));
 	const pageDescription = $derived($t('meta.projects.description'));
+	const getProjectDescription = (project: (typeof projects)[number]) => {
+		if (project.descriptionKey) {
+			return $t(project.descriptionKey);
+		}
+		return project.description ?? '';
+	};
 </script>
 
 <svelte:head>
@@ -21,7 +27,7 @@
 			{#each projects as project}
 				<ProjectCard
 					name={project.name}
-					description={$t(project.descriptionKey)}
+					description={getProjectDescription(project)}
 					image={project.image}
 					link={project.link}
 					stack={project.stack}
@@ -35,7 +41,7 @@
 			{#each smallProjects as project}
 				<ProjectCard
 					name={project.name}
-					description={$t(project.descriptionKey)}
+					description={getProjectDescription(project)}
 					image={project.image}
 					link={project.link}
 					stack={project.stack}

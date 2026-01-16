@@ -8,8 +8,7 @@ import type { Project } from "$lib/types";
 export const projects: Project[] = [
   {
     name: "Aster",
-    description:
-      "Aster is an integration platform built to connect web applications to SAP (B1 and S/4HANA), providing data sync, APIs and business workflows.",
+    descriptionKey: "data.project.aster.description",
     image: Aster,
     link: "https://www.spsgroup.com.br/portal-aster/",
     imageSize: {
@@ -19,8 +18,7 @@ export const projects: Project[] = [
   },
   {
     name: "Gringo",
-    description:
-      "Gringo is an app that was born to simplify the life of the Brazilian driver.",
+    descriptionKey: "data.project.gringo.description",
     image: Gringo,
     link: "https://gringo.com.vc/",
     imageSize: {
@@ -30,8 +28,7 @@ export const projects: Project[] = [
   },
   {
     name: "Callix",
-    description:
-      "Callix is an SaaS platform, multi-channel, contact center system",
+    descriptionKey: "data.project.callix.description",
     image: Callix,
     link: "https://www.callix.com.br/",
     imageSize: {
@@ -41,7 +38,7 @@ export const projects: Project[] = [
   },
   {
     name: "GoDevRel",
-    description: "Project created to help Developer Relations professionals",
+    descriptionKey: "data.project.godevrel.description",
     image: GoDevRel,
     link: "https://godevrel.netlify.app/",
     stack: ["Nodejs", "React", "NestJs", "PostgreSQL", "Redis", "Netlify"],
@@ -51,7 +48,7 @@ export const projects: Project[] = [
 export const smallProjects: Project[] = [
   {
     name: "Portfolio",
-    description: "My personal portfolio",
+    descriptionKey: "data.project.portfolio.description",
     image: Portfolio,
     link: "https://muriloarelhano.com.br",
     imageSize: {
