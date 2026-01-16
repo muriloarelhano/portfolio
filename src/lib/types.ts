@@ -1,6 +1,7 @@
 export type Project = {
 	name: string;
-	descriptionKey: string;
+	descriptionKey?: string;
+	description?: string;
 	image: any;
 	link: string;
 	stack: string[];
