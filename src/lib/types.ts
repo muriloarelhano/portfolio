@@ -1,6 +1,6 @@
 export type Project = {
 	name: string;
-	description: string;
+	descriptionKey: string;
 	image: any;
 	link: string;
 	stack: string[];
@@ -26,11 +26,11 @@ export type Skills = {
 };
 
 export type Experience = {
-	company: string
-	role: string
-	period: string
-	description?: string[]
-	year?: number
-	type: 'work' | 'education'
-	badge?: string;
+	company: string;
+	roleKey: string;
+	periodKey: string;
+	descriptionKey?: string;
+	year?: number;
+	type: 'work' | 'education';
+	badgeKey?: string;
 };

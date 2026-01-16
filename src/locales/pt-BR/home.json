@@ -1,0 +1,8 @@
+{
+  "banner.hello": "Olá, sou",
+  "banner.role": "Desenvolvedor Full-stack",
+  "banner.description": "Sou bacharel em Sistemas de Informação e desenvolvedor com foco em Node.js com TypeScript, React, Next.js e outras linguagens como Go. Atuo na criação de aplicações web, microsserviços e APIs como full-stack, sempre priorizando escalabilidade e boas práticas.",
+  "banner.imageAlt": "Banner com minha fotografia",
+  "banner.currentlyWorkingPrefix": "Atualmente trabalhando na",
+  "banner.currentlyWorkingSuffix": "({{country}})"
+}

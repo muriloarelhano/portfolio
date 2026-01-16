@@ -1,0 +1,6 @@
+{
+  "footer.role": "Engenheiro de Software Full-stack",
+  "footer.social": "Redes sociais",
+  "footer.developedBy": "Desenvolvido por {{name}}",
+  "footer.builtWith": "Construído com Svelte 5 & Tailwind CSS"
+}

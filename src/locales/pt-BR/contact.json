@@ -1,0 +1,9 @@
+{
+  "contact.sectionTitle": "contato",
+  "contact.description": "Se você tem interesse em falar comigo,\npor favor confira meu currículo ou me encontre nas redes sociais.",
+  "contact.directContact": "Contato direto",
+  "contact.basedIn": "Baseado em {{city}}, {{state}} - {{country}}",
+  "contact.location.city": "Tupi Paulista",
+  "contact.location.state": "SP",
+  "contact.location.country": "Brasil"
+}

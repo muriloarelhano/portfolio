@@ -4,19 +4,20 @@
 	import Skills from '$lib/components/sections/Skills.svelte';
 	import Timeline from '$lib/components/sections/Timeline.svelte';
 	import Contact from '$lib/components/sections/Contact.svelte';
+	import { t } from '$lib/i18n';
 
-	const structuredData = {
+	const structuredData = $derived({
 		'@context': 'https://schema.org',
 		'@type': 'Person',
-		name: 'Murilo Arelhano',
-		jobTitle: 'Software Engineer',
+		name: $t('common.name'),
+		jobTitle: $t('meta.home.structured.jobTitle'),
 		url: 'https://muriloarelhano.com',
 		sameAs: [
 			'https://github.com/muriloarelhano',
 			'https://www.linkedin.com/in/muriloarelhano/'
 		],
-		description: 'Software Engineer specializing in building exceptional digital experiences.'
-	};
+		description: $t('meta.home.structured.description')
+	});
 </script>
 
 <svelte:head>

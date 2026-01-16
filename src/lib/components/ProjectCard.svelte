@@ -1,5 +1,16 @@
 <script lang="ts">
-	import type { Project } from '$lib/types';
+	import { t } from '$lib/i18n';
+	interface Props {
+		stack: string[];
+		name: string;
+		description: string;
+		link: string;
+		image: any;
+		cover?: boolean;
+		imageSize?: {
+			width?: string;
+		};
+	}
 
 	let {
 		stack,
@@ -9,7 +20,7 @@
 		image,
 		cover = false,
 		imageSize = { width: '200' }
-	}: Project = $props();
+	}: Props = $props();
 </script>
 
 <div class="flex flex-col max-w-[350px] border border-zinc-700 bg-base-200/40 backdrop-blur-sm overflow-hidden group hover:border-primary transition-colors">
@@ -29,7 +40,7 @@
 			<p class="text-sm line-clamp-3">{description}</p>
 		</div>
 		<a href={link} target="_blank" rel="noopener noreferrer">
-			<button class="btn btn-outline btn-primary btn-sm w-fit">View Live</button>
+			<button class="btn btn-outline btn-primary btn-sm w-fit">{$t('button.viewLive')}</button>
 		</a>
 	</div>
 </div>

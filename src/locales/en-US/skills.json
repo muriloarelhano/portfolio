@@ -1,0 +1,10 @@
+{
+  "skills.sectionTitle": "skills",
+  "skills.pageTitle": "skills",
+  "skills.category.languages": "Languages",
+  "skills.category.frameworks": "Frameworks",
+  "skills.category.tools": "Tools",
+  "skills.category.databases": "Databases",
+  "skills.category.other": "Other",
+  "skills.metaDescription": "Technical skills and technologies I use to build software, including languages like TypeScript, Go, and frameworks like Svelte, React, and Node.js."
+}

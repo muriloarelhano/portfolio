@@ -2,6 +2,7 @@
 	import { projects, smallProjects } from '../../../data/projects';
 	import ProjectCard from '../ProjectCard.svelte';
 	import SectionHeader from '../SectionHeader.svelte';
+	import { t } from '$lib/i18n';
 
 	const displayedProjects = [...projects, ...smallProjects].slice(0, 4);
 </script>
@@ -9,9 +10,9 @@
 <section id="projects" class="mt-28">
 	<div class="container m-auto px-4 lg:px-0">
 		<SectionHeader
-			title={'projects'}
+			title={$t('projects.sectionTitle')}
 			button={{
-				label: 'view all',
+				label: $t('button.viewAll'),
 				link: '/projects'
 			}}
 		/>
@@ -20,7 +21,7 @@
 			{#each displayedProjects as project}
 				<ProjectCard
 					name={project.name}
-					description={project.description}
+					description={$t(project.descriptionKey)}
 					image={project.image}
 					link={project.link}
 					stack={project.stack}

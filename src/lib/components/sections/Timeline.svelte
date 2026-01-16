@@ -3,6 +3,7 @@
 	import SectionHeader from '../SectionHeader.svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { Briefcase, GraduationCap } from 'lucide-svelte';
+	import { t, tArray } from '$lib/i18n';
 
 	let selectedIndex = $state(experiences.length - 1);
 	let selectedExperience = $derived(experiences[selectedIndex]);
@@ -14,7 +15,7 @@
 
 <section id="timeline" class="mt-28">
 	<div class="container m-auto px-4">
-		<SectionHeader title="trajetória" />
+		<SectionHeader title={$t('timeline.sectionTitle')} />
 
 		<div class="relative mt-24 mb-16 py-10">
 			<!-- Horizontal Line -->
@@ -27,7 +28,7 @@
 						<button
 							class="flex flex-col items-center group transition-all duration-300"
 							onclick={() => select(i)}
-							aria-label="Selecionar {exp.company}"
+							aria-label={$t('timeline.selectExperience', { company: exp.company })}
 						>
 							{#if exp.year}
 								<span
@@ -80,20 +81,26 @@
 								</h3>
 								{#if selectedExperience.type === 'education'}
 									<div class="badge badge-sm badge-outline opacity-50 font-mono">
-										{selectedExperience.badge || 'Academic'}
+										{selectedExperience.badgeKey
+											? $t(selectedExperience.badgeKey)
+											: $t('timeline.badge.academic')}
 									</div>
 								{/if}
 								{#if selectedExperience.type === 'work'}
 									<div class="badge badge-sm badge-outline opacity-50 font-mono">
-										{selectedExperience.badge || 'Professional Experience'}
+										{selectedExperience.badgeKey
+											? $t(selectedExperience.badgeKey)
+											: $t('timeline.badge.professional')}
 									</div>
 								{/if}
 							</div>
-							<p class="text-lg text-white/70 font-mono mb-4">{selectedExperience.role}</p>
+							<p class="text-lg text-white/70 font-mono mb-4">
+								{$t(selectedExperience.roleKey)}
+							</p>
 
-							{#if selectedExperience.description}
+							{#if selectedExperience.descriptionKey}
 								<ul class="space-y-2 text-sm md:text-base text-white/50 font-mono">
-									{#each selectedExperience.description as item}
+									{#each $tArray(selectedExperience.descriptionKey) as item}
 										<li class="flex gap-2">
 											<span class="text-primary font-bold">#</span>
 											<span>{item}</span>
@@ -107,7 +114,7 @@
 							<span
 								class="badge badge-primary badge-outline rounded-none font-mono uppercase tracking-widest px-4"
 							>
-								{selectedExperience.period}
+								{$t(selectedExperience.periodKey)}
 							</span>
 						</div>
 					</div>

@@ -1,0 +1,8 @@
+{
+  "banner.hello": "Hi, I'm",
+  "banner.role": "Full-Stack Developer",
+  "banner.description": "I have a Bachelor's degree in Information Systems and work as a developer focused on Node.js with TypeScript, React, Next.js, and other languages like Go. I build web applications, microservices, and APIs as a full-stack developer, always prioritizing scalability and best practices.",
+  "banner.imageAlt": "Banner with my photograph",
+  "banner.currentlyWorkingPrefix": "Currently working on",
+  "banner.currentlyWorkingSuffix": "({{country}})"
+}

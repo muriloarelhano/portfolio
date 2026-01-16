@@ -1,0 +1,73 @@
+{
+  "resume.header.role": "Full-stack Developer",
+  "resume.summary": "I have a Bachelor's degree in Information Systems and work as a developer focused on Node.js with TypeScript, React, Next.js, and Go. I build web applications, microservices, and APIs as a full-stack developer, always focused on scalability, quality, and best practices. I also have interests in information security and DevOps.",
+  "resume.experience.sps.period": "May 2025 - Present",
+  "resume.experience.sps.title": "Senior Software Developer, SPS Group",
+  "resume.experience.sps.items": [
+    "Senior Software Developer working across backend and frontend.",
+    "Full-stack solutions with React.js and Node.js.",
+    "System architecture, scalability, and best practices.",
+    "Integration with SAP (S/4HANA, BusinessOne)."
+  ],
+  "resume.experience.gringo.period": "October 2023 - May 2025",
+  "resume.experience.gringo.title": "Software Engineer, Gringo",
+  "resume.experience.gringo.items": [
+    "Mobile app development with React Native.",
+    "Microservices development in Node.js with TypeScript.",
+    "PostgreSQL database integration and Firebase services.",
+    "Monitoring tooling with New Relic and Prometheus.",
+    "Deploying applications to Kubernetes on Google Cloud."
+  ],
+  "resume.experience.callix.period": "September 2022 - October 2023",
+  "resume.experience.callix.title": "Full-stack Developer, Callix",
+  "resume.experience.callix.items": [
+    "Full-stack development with Node.js, React.js, and Next.js.",
+    "PostgreSQL integration for the backend.",
+    "REST API development."
+  ],
+  "resume.experience.climatempo.period": "June 2021 - October 2022",
+  "resume.experience.climatempo.title": "Full-stack Developer, Climatempo",
+  "resume.experience.climatempo.items": [
+    "Node.js microservices development with REST, gRPC, and GraphQL.",
+    "Messaging queues with RabbitMQ.",
+    "Unit and integration tests.",
+    "CI/CD pipelines automating Kubernetes deployments.",
+    "Monitoring and observability tooling."
+  ],
+  "resume.contact.title": "Contact",
+  "resume.contact.addressLabel": "Address",
+  "resume.contact.addressValue": "Tupi Paulista, SP",
+  "resume.contact.phoneLabel": "Phone",
+  "resume.contact.phoneValue": "(67) 98187-4221",
+  "resume.contact.emailLabel": "Email",
+  "resume.contact.emailValue": "murilo.arelhano@hotmail.com",
+  "resume.skills.title": "Skills",
+  "resume.skills.items": [
+    "TypeScript and Go",
+    "Node.js",
+    "React",
+    "Next.js",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Monitoring",
+    "SQL and NoSQL databases",
+    "PostgreSQL",
+    "Unit testing",
+    "LLM integration (AI)"
+  ],
+  "resume.languages.title": "Languages",
+  "resume.languages.items": [
+    "Intermediate English"
+  ],
+  "resume.social.title": "Social",
+  "resume.social.linkedinLabel": "LinkedIn",
+  "resume.social.websiteLabel": "Personal Website",
+  "resume.education.title": "Education",
+  "resume.education.ufms.period": "January 2019 - July 2023",
+  "resume.education.ufms.title": "Bachelor's, Information Systems",
+  "resume.education.ufms.school": "Federal University of Mato Grosso do Sul",
+  "resume.education.puc.period": "January 2024 - July 2025",
+  "resume.education.puc.title": "Specialization in Solutions Architecture",
+  "resume.education.puc.school": "PUC Minas"
+}
