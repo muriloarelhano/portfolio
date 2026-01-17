@@ -8,6 +8,8 @@
   "meta.projects.description": "Uma coleção dos meus projetos de desenvolvimento de software, com aplicações full-stack, experimentos frontend e sistemas backend.",
   "meta.skills.title": "Habilidades | Murilo Arelhano",
   "meta.skills.description": "Habilidades técnicas e tecnologias que utilizo para construir software, incluindo linguagens como TypeScript, Go e frameworks como Svelte, React e Node.js.",
+  "meta.contact.title": "Contato | Murilo Arelhano",
+  "meta.contact.description": "Envie uma mensagem para Murilo Arelhano sobre freelas e parcerias.",
   "meta.resume.title": "Currículo | Murilo Arelhano",
   "meta.resume.description": "Currículo profissional de Murilo Arelhano, um desenvolvedor Full-stack com experiência em tecnologias web modernas e arquitetura de software.",
   "meta.home.structured.jobTitle": "Engenheiro de Software",

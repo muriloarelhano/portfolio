@@ -4,5 +4,18 @@
   "banner.description": "Sou bacharel em Sistemas de Informação e desenvolvedor com foco em Node.js com TypeScript, React, Next.js e outras linguagens como Go. Atuo na criação de aplicações web, microsserviços e APIs como full-stack, sempre priorizando escalabilidade e boas práticas.",
   "banner.imageAlt": "Banner com minha fotografia",
   "banner.currentlyWorkingPrefix": "Atualmente trabalhando na",
-  "banner.currentlyWorkingSuffix": "({{country}})"
+  "banner.currentlyWorkingSuffix": "({{country}})",
+  "freelance.sectionTitle": "colaborações especiais",
+  "freelance.lead": "Transformando ideias em produtos escaláveis através do desenvolvimento especializado, gerando código rápido, bom e fácil de manter.",
+  "freelance.description": "Especialista na arquitetura de soluções robustas para clientes, utilizo minha experiência no setor corporativo para entregar código de alta performance que acompanha seu crescimento e necessidades.",
+  "freelance.highlights": [
+    "Experiência com diversos sistemas complexos de missão crítica e alto tráfego",
+    "Entrega de alta velocidade focada na sustentabilidade do código a longo prazo e boas práticas"
+  ],
+  "freelance.cards.international.title": "Sinergia Global",
+  "freelance.cards.international.description": "Comunicação fluida com diversas partes do mundo em inglês.",
+  "freelance.cards.industry.title": "Padrão Enterprise",
+  "freelance.cards.industry.description": "Trazendo o rigor de produtos de grande porte para cada linha de código, garantindo estabilidade.",
+  "freelance.cards.delivery.title": "Ágil e Sustentável",
+  "freelance.cards.delivery.description": "Equilibrando entregas rápidas com arquitetura limpa para que seu código nunca seja um obstáculo."
 }

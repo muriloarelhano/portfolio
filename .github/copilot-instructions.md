@@ -1,37 +1,56 @@
 # Copilot Instructions - Personal Portfolio
 
-This project is a personal portfolio built with **SvelteKit 2** using **Svelte 5** and **Tailwind CSS 4**.
+This project is a personal portfolio built with **SvelteKit 2** using **Svelte 5**, **Tailwind CSS 4**, and a custom **Internationalization (i18n)** system.
 
-## Tech Stack & Architecture
-- **Framework**: SvelteKit 2 (using Svelte 5 Runes like `$props`, `$state`).
-- **Styling**: Tailwind CSS 4 with DaisyUI. Configured in `tailwind.config.js` and `src/app.css`.
-- **Data Flow**: Purely static, data-driven architecture. Data resides in `src/data/*.ts` and is imported directly by components/pages.
-- **Project Structure**:
-    - `src/routes/`: Page layouts and views.
-    - `src/lib/components/`: Reusable UI components.
-    - `src/lib/components/sections/`: High-level page sections (Banner, Projects, Contact, etc.).
-    - `src/data/`: Centralized content management (Skills, Projects, Socials).
+## Tech Stack
+- **Framework**: SvelteKit 2 + Svelte 5 (Runes).
+- **Styling**: Tailwind CSS 4 + DaisyUI.
+- **Icons**: `lucide-svelte`.
+- **Utilities**: `ts-pattern` for complex conditional logic.
 
-## Coding Patterns
-- **Svelte 5 Runes**: Always use `$props()` for component inputs. Prefer runes over traditional Svelte 4 syntax.
-- **Type Safety**: Use TypeScript for all components and data files. Interfaces should be defined within the component file or in a dedicated `types` file if shared.
-    - *Example*: `interface Props { name: string; link: string; }` in components.
-- **Tailwind & DaisyUI**: Use DaisyUI classes (e.g., `btn`, `btn-outline`) for buttons and standard components. Avoid custom CSS when utility classes suffice.
-- **Asset Imports**: Import images from `src/lib/assets/` directly in data files and pass them to components.
-- **Pattern Matching**: `ts-pattern` is available for complex conditional logic (see [src/lib/components/sections/Header.svelte](src/lib/components/sections/Header.svelte)).
+## Core Architecture & Systems
 
-## Development Workflows
-- **Running Locally**: `npm run dev`
-- **Formatting**: `npm run format` (uses Prettier). Run this before committing.
-- **Type Checking**: `npm run check` to ensure Svelte and TypeScript validity.
+### 1. Internationalization (i18n) - CRITICAL
+The project uses a custom i18n solution located in [src/lib/i18n/index.ts](src/lib/i18n/index.ts).
+- **Text MUST be localized**. Do not hardcode text in components.
+- **Translation Files**: Located in `src/locales/{langCode}/*.json`. Keys are merged/flattened (e.g., `banner.hello`).
+- **Usage**:
+  ```svelte
+  <script lang="ts">
+      import { t } from '$lib/i18n';
+  </script>
+  <h1>{$t('banner.hello')}</h1>
+  <p>{$t('greeting', { name: 'Visitor' })}</p>
+  ```
 
-## Important Locations
-- **Adding a Project**: Edit [src/data/projects.ts](src/data/projects.ts).
-- **Updating Skills**: Edit [src/data/skills.ts](src/data/skills.ts).
-- **Modifying Global Styles**: Check [src/app.css](src/app.css).
-- **Navigation/Header**: Located in [src/lib/components/sections/Header.svelte](src/lib/components/sections/Header.svelte).
+### 2. Data Management
+- **Static Data**: Business logic/content is separated from UI in `src/data/*.ts`.
+- **Pattern**: Components import data directly (e.g., `import { projects } from '$data/projects'`).
 
-## Guidelines
-- Avoid using external UI libraries beyond DaisyUI unless necessary.
-- Maintain the "hacker/portfolio" aesthetic (standardized headers with `/` prefix, nav links with `#` or `/`).
-- Prioritize responsiveness using Tailwind grid/flex utilities.
+## Svelte 5 & Coding Standards
+- **Runes**: Always use `$props()`, `$state()`, `$derived()`, `$effect()`. Prefer runes over legacy syntax.
+- **Tailwind & DaisyUI**: Use utility classes. Use DaisyUI components (e.g., `btn`, `btn-outline`). Avoid custom CSS.
+- **Aesthetic**: Maintain the "hacker/portfolio" look (standardized headers with `/` prefix, nav links with `#` or `/`).
+- **Type Safety**: Use TypeScript. Define interfaces in component files or [src/lib/types.ts](src/lib/types.ts).
+
+## Common Workflows
+
+### Adding New Content
+1.  **Update Data**: Add entry to [src/data/](src/data/).
+2.  **Add Translations**: Add keys to `src/locales/en-US/*.json` AND `src/locales/pt-BR/*.json`.
+3.  **Update Component**: Use `$t('key')` to display.
+
+### Adding Images
+- Place in `src/lib/assets/`.
+- Import explicitly in the component/data file: `import myImg from '$lib/assets/my-img.png'`.
+
+## Important Paths
+- **I18n**: [src/lib/i18n/index.ts](src/lib/i18n/index.ts) & [src/locales/](src/locales/)
+- **Data**: [src/data/](src/data/)
+- **Sections**: [src/lib/components/sections/](src/lib/components/sections/)
+- **Layouts**: [src/routes/](src/routes/)
+
+## Commands
+- `npm run dev`: Start dev server.
+- `npm run check`: Type check (Svelte + TS).
+- `npm run format`: Prettier formatting.

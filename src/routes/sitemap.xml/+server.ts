@@ -1,5 +1,5 @@
 export const GET = async () => {
-    const pages = ['', 'projects', 'resume', 'skills'];
+  const pages = ['', 'projects', 'resume', 'skills', 'contact'];
     const site = 'https://muriloarelhano.com'; // Change this to your actual domain
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8" ?>

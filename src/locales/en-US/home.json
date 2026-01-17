@@ -1,8 +1,21 @@
 {
   "banner.hello": "Hi, I'm",
-  "banner.role": "Full-Stack Developer",
-  "banner.description": "I have a Bachelor's degree in Information Systems and work as a developer focused on Node.js with TypeScript, React, Next.js, and other languages like Go. I build web applications, microservices, and APIs as a full-stack developer, always prioritizing scalability and best practices.",
+  "banner.role": "Full-stack Developer",
+  "banner.description": "I have a Bachelor's degree in Information Systems and I am a developer focused on Node.js with TypeScript, React, Next.js, and other languages like Go. I work in the creation of web applications, microservices, and APIs as a full-stack developer, always prioritizing scalability and best practices.",
   "banner.imageAlt": "Banner with my photograph",
-  "banner.currentlyWorkingPrefix": "Currently working on",
-  "banner.currentlyWorkingSuffix": "({{country}})"
+  "banner.currentlyWorkingPrefix": "Currently working at",
+  "banner.currentlyWorkingSuffix": "({{country}})",
+  "freelance.sectionTitle": "special collaborations",
+  "freelance.lead": "Transforming ideas into scalable products through specialized development, generating fast, high-quality, and maintainable code.",
+  "freelance.description": "Specialist in architecting robust solutions for clients, I leverage my enterprise sector experience to deliver high-performance code that follows your growth and needs.",
+  "freelance.highlights": [
+    "Experience with various complex mission-critical and high-traffic systems",
+    "High-speed delivery focused on long-term code sustainability and best practices"
+  ],
+  "freelance.cards.international.title": "Global Synergy",
+  "freelance.cards.international.description": "Fluid communication with various parts of the world in English.",
+  "freelance.cards.industry.title": "Enterprise Standard",
+  "freelance.cards.industry.description": "Bringing the rigor of large-scale products to every line of code, ensuring stability.",
+  "freelance.cards.delivery.title": "Agile and Sustainable",
+  "freelance.cards.delivery.description": "Balancing fast delivery with clean architecture so your code is never an obstacle."
 }

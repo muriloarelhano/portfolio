@@ -50,11 +50,16 @@
 					class:text-white={path.startsWith('/skills')}>#</span
 				>{$t('nav.skills')}
 			</a>
-			{#if path === '/'}
-				<a href="#contact" class="hover:text-primary transition-colors group">
-					<span class="text-primary group-hover:text-white">#</span>{$t('nav.contacts')}
-				</a>
-			{/if}
+			<a
+				href="/contact"
+				class="hover:text-primary transition-colors group"
+				class:text-primary={path.startsWith('/contact')}
+			>
+				<span
+					class="text-primary group-hover:text-white"
+					class:text-white={path.startsWith('/contact')}>#</span
+				>{$t('nav.contacts')}
+			</a>
 
 			<a
 				href="/resume"
