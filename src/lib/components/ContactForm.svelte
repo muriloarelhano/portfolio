@@ -113,11 +113,11 @@
 
 		<!-- Reason Selection -->
 		<div class="space-y-4">
-			<label class="text-[10px] font-mono font-bold text-zinc-400 uppercase tracking-[0.2em]">
+			<label class="text-sm font-mono font-bold text-zinc-400 tracking-[0.2em]">
 				01. {$t('contact.form.reasonLabel')}
 			</label>
 			<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-				{#each ['freelance', 'job', 'general'] as r}
+				{#each ['freelance', 'general', 'job'] as r}
 					<button
 						type="button"
 						class="relative flex items-center justify-center p-4 rounded-none border cursor-pointer transition-all duration-300 group
@@ -128,7 +128,7 @@
 						disabled={submitting}
 					>
 						<input type="radio" name="reason" value={r} class="sr-only" checked={reason === r} />
-						<span class="text-[10px] font-mono font-bold uppercase tracking-wider"
+						<span class="text-sm font-mono font-bold tracking-wider"
 							>{$t(`contact.form.reasons.${r}`)}</span
 						>
 						{#if reason === r}
@@ -140,43 +140,41 @@
 		</div>
 
 		<div class="space-y-6">
-			<label
-				class="text-[10px] font-mono font-bold text-zinc-400 uppercase tracking-[0.2em] mb-2 block"
-			>
-				02. Information
+			<label class="text-sm font-mono font-bold text-zinc-400 tracking-[0.2em] mb-2 block">
+				02. {$t('contact.form.infoLabel')}
 			</label>
 
 			<!-- Name & Email Grid -->
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 				<label class="group">
 					<span
-						class="block text-[10px] font-mono text-zinc-400 mb-2 group-focus-within:text-primary transition-colors uppercase"
+						class="block text-sm font-mono text-zinc-400 mb-2 group-focus-within:text-primary transition-colors"
 					>
 						{$t('contact.form.nameLabel')}
 					</span>
 					<input
 						name="name"
 						required
-						placeholder="E.G. JOHN DOE"
+						placeholder={$t('contact.form.namePlaceholder')}
 						autocomplete="name"
-						class="input input-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 font-mono text-xs uppercase"
+						class="input input-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 font-mono text-xs"
 						value={values.name ?? ''}
 						disabled={submitting}
 					/>
 				</label>
 				<label class="group">
 					<span
-						class="block text-[10px] font-mono text-zinc-400 mb-2 group-focus-within:text-primary transition-colors uppercase"
+						class="block text-sm font-mono text-zinc-400 mb-2 group-focus-within:text-primary transition-colors"
 					>
 						{$t('contact.form.emailLabel')}
 					</span>
 					<input
 						name="email"
 						required
-						placeholder="EMAIL@DOMAIN.COM"
+						placeholder={$t('contact.form.emailPlaceholder')}
 						autocomplete="email"
 						type="email"
-						class="input input-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 font-mono text-xs uppercase"
+						class="input input-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 font-mono text-xs"
 						value={values.email ?? ''}
 						disabled={submitting}
 					/>
@@ -189,14 +187,14 @@
 					class="group transition-all duration-300 animate-in fade-in slide-in-from-top-2 block"
 				>
 					<span
-						class="block text-[10px] font-mono text-zinc-400 mb-2 group-focus-within:text-primary transition-colors uppercase"
+						class="block text-sm font-mono text-zinc-400 mb-2 group-focus-within:text-primary transition-colors"
 					>
 						{$t('contact.form.budgetLabel')}
 					</span>
 					<input
 						name="budget"
-						placeholder="ESTIMATED BUDGET (E.G. $5,000)"
-						class="input input-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 font-mono text-xs uppercase"
+						placeholder={$t('contact.form.budgetPlaceholder')}
+						class="input input-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 font-mono text-xs"
 						value={values.budget ?? ''}
 						disabled={submitting}
 					/>
@@ -206,7 +204,7 @@
 
 		<!-- Message Field -->
 		<div class="space-y-4">
-			<label class="text-[10px] font-mono font-bold text-zinc-400 uppercase tracking-[0.2em] block">
+			<label class="text-sm font-mono font-bold text-zinc-400 tracking-[0.2em] block">
 				03. {$t(messageLabel)}
 			</label>
 			<label class="group block">
@@ -215,9 +213,9 @@
 					required
 					rows={5}
 					placeholder={reason === 'freelance'
-						? '> PLEASE DESCRIBE YOUR PROJECT REQUIREMENTS, STACK AND GOALS...'
-						: '> TYPE YOUR MESSAGE HERE...'}
-					class="textarea textarea-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 resize-none font-mono text-xs uppercase"
+						? $t('contact.form.messagePlaceholderFreelance')
+						: $t('contact.form.messagePlaceholder')}
+					class="textarea textarea-bordered w-full rounded-none bg-base-300/30 border-zinc-700 focus:border-primary focus:outline-none transition-all placeholder:text-zinc-600 resize-none font-mono text-xs"
 					disabled={submitting}>{values.message ?? ''}</textarea
 				>
 			</label>
@@ -231,7 +229,7 @@
 				</div>
 			{:else}
 				<div
-					class="bg-warning/10 border border-warning/30 p-4 text-[10px] font-mono text-warning text-center uppercase tracking-widest"
+					class="bg-warning/10 border border-warning/30 p-4 text-sm font-mono text-warning text-center tracking-widest"
 				>
 					{$t('contact.form.errors.turnstileMissing')}
 				</div>
@@ -250,13 +248,13 @@
 						{#if submitting}
 							<span class="loading loading-spinner loading-xs text-primary-content"></span>
 						{/if}
-						<span class="uppercase tracking-[0.3em] font-mono font-black text-primary-content">
+						<span class="tracking-[0.3em] font-mono font-black text-primary-content">
 							{submitting ? $t('contact.form.submitting') : $t('contact.form.submit')}
 						</span>
 					</div>
 				</button>
 
-				<p class="text-[9px] text-zinc-500 font-mono text-center uppercase tracking-[0.2em]">
+				<p class="text-[9px] text-zinc-500 font-mono text-center tracking-[0.2em]">
 					// {$t('contact.form.notice')}
 				</p>
 
@@ -265,7 +263,7 @@
 						class="alert alert-success rounded-none font-mono text-xs shadow-lg animate-in fade-in slide-in-from-bottom-2"
 					>
 						<CircleCheck size={18} />
-						<span class="font-bold uppercase tracking-tight">{$t('contact.form.success')}</span>
+						<span class="font-bold tracking-tight">{$t('contact.form.success')}</span>
 					</div>
 				{/if}
 				{#if error}
@@ -273,7 +271,7 @@
 						class="alert alert-error rounded-none font-mono text-xs shadow-lg animate-in fade-in slide-in-from-bottom-2"
 					>
 						<TriangleAlert size={18} />
-						<span class="font-bold uppercase tracking-tight">{$t(error)}</span>
+						<span class="font-bold tracking-tight">{$t(error)}</span>
 					</div>
 				{/if}
 			</div>
