@@ -37,7 +37,7 @@
 				<div class="w-3 h-3 bg-primary shrink-0"></div>
 				<p class="text-sm">
 					{$t('banner.currentlyWorkingPrefix')}
-					<strong class="text-primary"> Gringo </strong>
+					<strong class="text-primary"> SPS Group </strong>
 					{$t('banner.currentlyWorkingSuffix', { country: $t('common.brazil') })}
 				</p>
 			</div>
